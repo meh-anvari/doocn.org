@@ -8,31 +8,12 @@
   <title>DOOCN-XI: Dynamics On and Of Complex Networks</title>
   <meta name="description" content="Official website of the \"Dynamics On and Of Complex Networks\" workshop series">
 
+  <link rel="stylesheet" type="text/css" href="semantic.min.css">
+
   <style>
   body {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
     line-height: 1.5em;
-  }
-  #root {
-    max-width: 700px;
-    margin: 0 auto
-  }
-  #navbar {
-    border-top: solid 1px #666;
-    border-bottom: solid 1px #666;
-    padding: 1ex 0;
-  }
-  h1 {
-    font-size: 1.6rem;
-  }
-  h2 {
-    font-size: 1.5rem;
-    font-weight: normal;
-  }
-  h3 {
-    font-size: 1.2rem;
-    font-weight: normal;
-    font-style: italic;
+    background-image: url("images/background.png");
   }
   .monospaced {
     font-family: "Courier New", Courier, monospace;
@@ -41,14 +22,32 @@
   .push-down {
     padding-top: 0.7rem;
   }
-  .center-aligned {
-    text-align: center;
+  .text-block {
+    background-color: white;
   }
   </style>
+
+  <link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+  <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/manifest.json">
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+  <meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
-<div id="root">
+<div id="root", class="ui container">
 
 <h1>DOOCN-XI: Dynamics On and Of Complex Networks 2018</h1>
 
@@ -78,29 +77,102 @@ will be held in conjunction with the upcoming
 which will take place during 23&ndash;28 September 2018,
 in Thessaloniki, Greece.</p>
 
+<div id="navbar" class="ui stackable menu">
+  <a href="#invited" class="item">Invited Speakers</a>
+  <a href="#program" class="item">Program</a>
+  <a href="#organizers" class="item">Organizers</a>
 
-
-<div id="navbar">
-  <a href="#invited">Invited Speakers</a> |
-  <a href="#program">Program</a> |
-  <a href="#organizers">Organizers</a> |
-  <a href="#history">History</a> |
-  <a href="#books">DOOCN Book Series</a>
+  <div class="right menu">
+    <a href="#history" class="item">History</a>
+    <a href="#books" class="item">DOOCN Book Series</a>
+  </div>
 </div>
 
 <h2 id="invited">Invited Speakers</h2>
 
-<ul>
-  <li><a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/">Constantine Dovrolis</a>, Georgia Tech, USA</li>
-  <li><a href="http://www.maths.qmul.ac.uk/~gbianconi/">Ginestra Bianconi</a>, Queen Mary  University of London, UK</li>
-  <li><a href="http://homes.soic.indiana.edu/filiradi/">Filippo Radicchi</a>, Indiana University, USA</li>
-  <li><a href="http://deim.urv.cat/~sergio.gomez/index.php">Sergio Gómez</a>, Universitat Rovira i Virgili, Spain</li>
-  <li><a href="https://people.mpi-sws.org/~manuelgr/">Manuel Gomez Rodriguez</a>, Max Planck Institute for Software Systems, Germany</li>
-  <li><a href="http://www.nld.ds.mpg.de/~jan/">Jan Nagler</a>, ETH Zurich, Switzerland</li>
-  <li><a href="https://piratepeel.github.io/">Leto Peel</a>, Université Catholique de Louvain, Belgium</li>
-  <li><a href="https://www.maths.ox.ac.uk/people/marya.bazzi">Marya Bazzi</a>, Alan Turing Institute, UK</li>
-  <li><a href="http://cse.iitkgp.ac.in/~sansik/index.html">Sandipan Sikdar</a>, RWTH Aachen, Germany</li>
-</ul>
+<div class="ui cards">
+  <a href="https://www.cc.gatech.edu/fac/Constantinos.Dovrolis/" class="ui card">
+    <div class="image">
+      <img src="images/dorvrolis-cropped.png">
+    </div>
+    <div class="content">
+      <div class="header">Constantine Dovrolis</div>
+      <div class="description">Georgia Tech, USA</div>
+    </div>
+  </a>
+  <a href="http://www.maths.qmul.ac.uk/~gbianconi/" class="ui card">
+    <div class="image">
+      <img src="images/bianconi-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Ginestra Bianconi</div>
+      <div class="description">Queen Mary  University of London, UK</div>
+    </div>
+  </a>
+  <a href="http://homes.soic.indiana.edu/filiradi/" class="ui card">
+    <div class="image">
+      <img src="images/radicchi-cropped.png">
+    </div>
+    <div class="content">
+      <div class="header">Filippo Radicchi</div>
+      <div class="description">Indiana University, USA</div>
+    </div>
+  </a>
+  <a href="http://deim.urv.cat/~sergio.gomez/index.php" class="ui card">
+    <div class="image">
+      <img src="images/gomez-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Sergio Gómez</div>
+      <div class="description">Universitat Rovira&nbsp;i&nbsp;Virgili, Spain</div>
+    </div>
+  </a>
+  <a href="https://people.mpi-sws.org/~manuelgr/" class="ui card">
+    <div class="image">
+      <img src="images/rodriguez-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Manuel Gomez Rodriguez</div>
+      <div class="description">Max Planck Institute for Software Systems, Germany</div>
+    </div>
+  </a>
+  <a href="http://www.nld.ds.mpg.de/~jan/" class="ui card">
+    <div class="image">
+      <img src="images/nagler-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Jan Nagler</div>
+      <div class="description">ETH Zurich, Switzerland</div>
+    </div>
+  </a>
+  <a href="https://piratepeel.github.io/" class="ui card">
+    <div class="image">
+      <img src="images/peel-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Leto Peel</div>
+      <div class="description">Université Catholique de Louvain, Belgium</div>
+    </div>
+  </a>
+  <a href="https://www.maths.ox.ac.uk/people/marya.bazzi" class="ui card">
+    <div class="image">
+      <img src="images/bazzi-cropped.jpg" >
+    </div>
+    <div class="content">
+      <div class="header">Marya Bazzi</div>
+      <div class="description">Alan Turing Institute, UK</div>
+    </div>
+  </a>
+  <a href="http://cse.iitkgp.ac.in/~sansik/index.html" class="ui card">
+    <div class="image">
+      <img src="images/sikdar-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Sandipan Sikdar</div>
+      <div class="description">RWTH Aachen, Germany</div>
+    </div>
+  </a>
+</div>
 
 <h2 id="program">Program</h2>
 
@@ -145,14 +217,62 @@ in Thessaloniki, Greece.</p>
 
 <h2 id="organizers">Organizers</h2>
 
-<ul>
-  <li><a href="http://people.mpi-inf.mpg.de/~rsaharo/">Rishiraj Saha Roy</a>, Max Planck Institute for Informatics, Germany</li>
-  <li><a href="https://sites.google.com/site/fakhtehghanbarnejad/">Fakhteh Ghanbarnejad</a>, Technische Universität Berlin, Germany</li>
-  <li><a href="http://cse.iitkgp.ac.in/~bivasm/">Bivas Mitra</a>, Indian Institute of Technology Kharagpur, India</li>
-  <li><a href="https://perso.uclouvain.be/jean-charles.delvenne/welcome.html">Jean-Charles Delvenne</a>, Université Catholique de Louvain, Belgium</li>
-  <li><a href="https://sites.google.com/site/frbkrm/">Fariba Karimi</a>, GESIS &ndash; Leibniz Institute for the Social Sciences, Germany</li>
-  <li><a href="http://parantapa.net/">Parantapa Bhattacharya</a>, Virginia Tech, USA</li>
-</ul>
+<div class="ui cards">
+  <a href="http://people.mpi-inf.mpg.de/~rsaharo/" class="ui card">
+    <div class="image">
+      <img src="images/saharoy.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Rishiraj Saha Roy</div>
+      <div class="description">Max Planck Institute for Informatics, Germany</div>
+    </div>
+  </a>
+  <a href="https://sites.google.com/site/fakhtehghanbarnejad/" class="ui card">
+    <div class="image">
+      <img src="images/ghanbarnejad.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Fakhteh Ghanbarnejad</div>
+      <div class="description">Technische Universität Berlin, Germany</div>
+    </div>
+  </a>
+  <a href="http://cse.iitkgp.ac.in/~bivasm/" class="ui card">
+    <div class="image">
+      <img src="images/mitra.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Bivas Mitra</div>
+      <div class="description">Indian Institute of Technology Kharagpur, India</div>
+    </div>
+  </a>
+  <a href="https://perso.uclouvain.be/jean-charles.delvenne/welcome.html" class="ui card">
+    <div class="image">
+      <img src="images/delvenne.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Jean-Charles Delvenne</div>
+      <div class="description">Université Catholique de Louvain, Belgium</div>
+    </div>
+  </a>
+  <a href="https://sites.google.com/site/frbkrm/" class="ui card">
+    <div class="image">
+      <img src="images/karimi.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Fariba Karimi</div>
+      <div class="description">GESIS &ndash; Leibniz Institute for the Social Sciences, Germany</div>
+    </div>
+  </a>
+  <a href="http://parantapa.net/" class="ui card">
+    <div class="image">
+      <img src="images/bhattacharya.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Parantapa Bhattacharya</div>
+      <div class="description">Virginia Tech, USA</div>
+    </div>
+  </a>
+</div>
 
 <h2 id="history">History</h2>
 
