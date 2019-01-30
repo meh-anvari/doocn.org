@@ -30,7 +30,14 @@
     font-size: 1.8rem;
     text-align: center;
   }
-  h3.center-aligned {
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  p.location {
     text-align: center;
     font-weight: normal;
     font-style: italic;
@@ -38,21 +45,19 @@
   p {
     text-align: justify;
   }
-  li h3 {
-    padding-top: 1.5rem;
-  }
   </style>
 </head>
 
 <body>
 <div id="root", class="ui container">
 
-<h1>DOOCN-XII: Dynamics On and Of Complex Networks 2019</h1>
+<h1>DOOCN-XII: Network Representation Learning</h1>
+<h2>Dynamics On and Of Complex Networks 2019</h2>
 
-<h3 class="center-aligned">
+<p class="location">
   Frank Room of the UVM Davis Center<br>
   University of Vermont, Burlington, Vermont, USA<br>
-  Tuesday, May 28th 2019</h3>
+  Tuesday, May 28th 2019 1:45pm&ndash;5:30pm</p>
 
 <p>The Dynamics On and Of Complex Networks (DOOCN) workshop series,
 aims on exploring statistical dynamics on and of complex networks.
@@ -70,8 +75,19 @@ This motivates us to focus on
 <strong>&ldquo;Network Representation Learning&rdquo;</strong>
 as the significant topic of interest in the 2019 edition.</p>
 
+
+<p>Network Representation Learning or Graph Embedding is a technique
+that aims to compute vector space representations
+of nodes and edges of a network,
+that capture their relations semantically.
+Recently Network Representation Learning has seen a lot of research focus
+from the Network Science community
+for its ability to automatically capture
+different sorts of complex semantic relations
+between components of a graph without explicit programming.</p>
+
 <p>The 12<sup>th</sup> edition of the DOOCN workshop,
-&ldquo;Dynamics On and Of Complex Networks 2019 (DOOCN-XII)&rdquo;
+&ldquo;DOOCN-XII: Network Representation Learning&rdquo;
 will be held in conjunction with the upcoming
 <a href="http://www.netsci2019.net/">NetSci 2019</a> conference,
 which will take place during 27&ndash;31 May 2019,
@@ -80,34 +96,17 @@ in Burlington, Vermont, USA.
 
 <div id="navbar" class="ui five item stackable menu">
   <a href="#invited" class="item">Invited Speakers</a>
-  <!-- <a href="#program" class="item">Program</a> -->
   <a href="#organizers" class="item">Organizers</a>
-  <a href="abstract.html" class="item">Abstracts</a>
   <a href="#history" class="item">History</a>
-  <div class="ui simple dropdown item">
-    <i class="bars icon"></i>
-    <div class="menu">
-      <a href="#books" class="item">DOOCN Book Series</a>
-    </div>
-  </div>
-
+  <a href="#books" class="item">DOOCN Book Series</a>
 </div>
 
-<h2 id="invited">Invited Speakers</h2>
+<h3 id="invited">Invited Speakers</h3>
 
 <div class="ui cards">
-  <a href="https://williamleif.github.io/" class="ui centered card">
-    <div class="image">
-      <img src="images/hamilton.jpg">
-    </div>
-    <div class="content">
-      <div class="header">William L. Hamilton</div>
-      <div class="description">McGill University, Canada</div>
-    </div>
-  </a>
   <a href="http://www.emilio.ferrara.name/" class="ui centered card">
     <div class="image">
-      <img src="images/ferrara.jpg">
+      <img src="images/ferrara-cropped.jpg">
     </div>
     <div class="content">
       <div class="header">Emilio Ferrara</div>
@@ -116,36 +115,45 @@ in Burlington, Vermont, USA.
   </a>
   <a href="http://web.eecs.umich.edu/~dkoutra/" class="ui centered card">
     <div class="image">
-      <img src="images/koutra.jpg">
+      <img src="images/koutra-cropped.jpg">
     </div>
     <div class="content">
       <div class="header">Danai Koutra</div>
       <div class="description">University of Michigan, USA</div>
     </div>
   </a>
-  <a href="https://ericdongyx.github.io/" class="ui centered card">
-    <div class="image">
-      <img src="images/dong.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Yuxiao Dong</div>
-      <div class="description">Microsoft Research, Redmond, USA</div>
-    </div>
-  </a>
   <a href="https://www.eecs.yorku.ca/~papaggel/" class="ui centered card">
     <div class="image">
-      <img src="images/papagelis.jpg">
+      <img src="images/papagelis-cropped.jpg">
     </div>
     <div class="content">
       <div class="header">Manos Papagelis</div>
       <div class="description">York University, Canada</div>
     </div>
   </a>
+  <a href="https://ericdongyx.github.io/" class="ui centered card">
+    <div class="image">
+      <img src="images/dong-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Yuxiao Dong</div>
+      <div class="description">Microsoft Research, Redmond, USA</div>
+    </div>
+  </a>
+  <a href="https://williamleif.github.io/" class="ui centered card">
+    <div class="image">
+      <img src="images/hamilton-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">William L. Hamilton</div>
+      <div class="description">McGill University, Canada</div>
+    </div>
+  </a>
 </div>
 
-<!-- <h2 id="program">Program</h2> -->
+<!-- <h3 id="program">Program</h3> -->
 
-<h2 id="organizers">Organizers</h2>
+<h3 id="organizers">Organizers</h3>
 
 <div class="ui cards">
   <a href="http://people.mpi-inf.mpg.de/~rsaharo/" class="ui centered card">
@@ -186,7 +194,7 @@ in Burlington, Vermont, USA.
   </a>
 </div>
 
-<h2 id="history">History</h2>
+<h3 id="history">History</h3>
 
 <p>The first Dynamics On and Of Complex Networks (DOOCN I)
 took place in Dresden, Germany, on 4th October 2007,
@@ -247,7 +255,7 @@ was held in Thessaloniki, Greece
 at Conference on Complex Systems (CCS) with the theme
 &ldquo;Machine learning for complex networks&rdquo;.</p>
 
-<h2 id="books">DOOCN Book Series</h2>
+<h3 id="books">DOOCN Book Series</h3>
 
 <p>
 The organizing committees of the DOOCN workshop series
