@@ -26,6 +26,10 @@
   .push-down {
     padding-top: 0.7rem;
   }
+  .people-container-2colmax {
+    max-width: 580px;
+    margin: 0 auto;
+  }
   h1 {
     font-size: 1.8rem;
     text-align: center;
@@ -37,6 +41,11 @@
   h3 {
     font-size: 1.5rem;
   }
+  h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
   p.location {
     text-align: center;
     font-weight: normal;
@@ -45,11 +54,14 @@
   p {
     text-align: justify;
   }
+  ul li {
+    margin-bottom: 1em;
+  }
   </style>
 </head>
 
 <body>
-<div id="root", class="ui container">
+<div id="root" class="ui container">
 
 <h1>DOOCN-XII: Network Representation Learning</h1>
 <h2>Dynamics On and Of Complex Networks 2019</h2>
@@ -96,102 +108,208 @@ in Burlington, Vermont, USA.
 
 <div id="navbar" class="ui five item stackable menu">
   <a href="#invited" class="item">Invited Speakers</a>
+  <a href="#program" class="item">Program</a>
   <a href="#organizers" class="item">Organizers</a>
   <a href="#history" class="item">History</a>
   <a href="#books" class="item">DOOCN Book Series</a>
 </div>
 
-<h3 id="invited">Invited Speakers</h3>
+<div>
 
-<div class="ui cards">
-  <a href="http://www.emilio.ferrara.name/" class="ui centered card">
-    <div class="image">
-      <img src="images/ferrara-cropped.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Emilio Ferrara</div>
-      <div class="description">University of Southern California, USA</div>
-    </div>
-  </a>
-  <a href="http://web.eecs.umich.edu/~dkoutra/" class="ui centered card">
-    <div class="image">
-      <img src="images/koutra-cropped.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Danai Koutra</div>
-      <div class="description">University of Michigan, USA</div>
-    </div>
-  </a>
-  <a href="https://www.eecs.yorku.ca/~papaggel/" class="ui centered card">
-    <div class="image">
-      <img src="images/papagelis-cropped.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Manos Papagelis</div>
-      <div class="description">York University, Canada</div>
-    </div>
-  </a>
-  <a href="https://ericdongyx.github.io/" class="ui centered card">
-    <div class="image">
-      <img src="images/dong-cropped.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Yuxiao Dong</div>
-      <div class="description">Microsoft Research, Redmond, USA</div>
-    </div>
-  </a>
-  <a href="https://williamleif.github.io/" class="ui centered card">
-    <div class="image">
-      <img src="images/hamilton-cropped.jpg">
-    </div>
-    <div class="content">
-      <div class="header">William L. Hamilton</div>
-      <div class="description">McGill University, Canada</div>
-    </div>
-  </a>
+  <h3 id="invited">Invited Speakers</h3>
+
+  <div class="ui cards">
+    <a href="http://web.eecs.umich.edu/~dkoutra/" class="ui centered card">
+      <div class="image">
+        <img src="images/koutra-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Danai Koutra</div>
+        <div class="description">University of Michigan, USA</div>
+      </div>
+    </a>
+    <a href="https://www.eecs.yorku.ca/~papaggel/" class="ui centered card">
+      <div class="image">
+        <img src="images/papagelis-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Manos Papagelis</div>
+        <div class="description">York University, Canada</div>
+      </div>
+    </a>
+    <a href="https://ericdongyx.github.io/" class="ui centered card">
+      <div class="image">
+        <img src="images/dong-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Yuxiao Dong</div>
+        <div class="description">Microsoft Research, Redmond, USA</div>
+      </div>
+    </a>
+    <a href="https://williamleif.github.io/" class="ui centered card">
+      <div class="image">
+        <img src="images/hamilton-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">William L. Hamilton</div>
+        <div class="description">McGill University, Canada</div>
+      </div>
+    </a>
+    <a href="https://https://www.isi.edu/people/aabeliuk/about" class="ui centered card">
+      <div class="image">
+        <img src="images/abeliuk-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Andrés Abeliuk</div>
+        <div class="description">University of Southern California, USA</div>
+      </div>
+    </a>
+  </div>
+
 </div>
 
-<!-- <h3 id="program">Program</h3> -->
+<h3 id="program">Program</h3>
 
-<h3 id="organizers">Organizers</h3>
+<ul>
+    <li><span class="monospaced">13:45&ndash;13:55</span>:
+      Welcome and introductions by <strong>Dr.&nbsp;Parantapa&nbsp;Bhattacharya</strong></li>
+    <li><span class="monospaced">13:55&ndash;14:30</span>:
+      Invited Talk by <strong>Dr.&nbsp;Yuxiao&nbsp;Dong</strong>
+      <h4>Title: Representation learning on networks</h4>
+      <p>Abstract:
+Over the past few years, representation learning has been offering
+a revolutionary paradigm for mining and learning with network data. In this
+talk, I will give a systematic introduction for this ongoing paradigm shift.
+I will start the talk with industry examples to explain how network analysis and
+graph mining on the Web are benefiting from representation learning, as well as
+its associated challenges. Then I will show how current developments on this
+problem can conceptually fall into three different categories, i.e., graph
+spectral, neural network, and matrix factorization based techniques.
+Importantly, I will demonstrate how these methods can be theoretically connected
+and unified with each other. For example, we find that skip-gram based network
+embedding methods are in essence implicitly factorizing matrices with closed
+forms, which are closely connected with the theory of graph Laplacian.  Finally,
+I will show how we can leverage sparse matrix factorization for learning
+representations on large-scale networks
+    <li><span class="monospaced">14:30&ndash;15:05</span>:
+      Invited Talk by <strong>Prof.&nbsp;Danai&nbsp;Koutra</strong>
+      <h4>Title: Pocket-size structural embeddings in large-scale networks</h4>
+      <p>Abstract:
+Networks naturally capture a host of real-world interactions, from social
+interactions and email communication to web browsing to brain activity. Over the
+past few years, representation learning over networks has been shown to be
+successful in a variety of downstream tasks, such as classification, link
+prediction, and visualization. Most existing approaches seek to learn node
+representations that capture node proximity. In this talk, I will discuss our
+recent work on a different class of node representations that aim to preserve
+the structural similarity between the nodes. I will present the lessons learned
+from designing efficient structural embedding methods for large-scale
+heterogeneous data, including ways to overcome the computational challenges and
+massive storage requirements that many existing techniques face. Throughout the
+talk, I will discuss applications to professional role discovery, entity
+resolution, entity linking across data sources, and more.
+       </p></li>
+    <li><span class="monospaced">15:05&ndash;15:20</span>:
+      <strong>Coffee Break</strong></li>
+    <li><span class="monospaced">15:20&ndash;15:55</span>:
+      Invited Talk by <strong>Prof.&nbsp;Manos&nbsp;Papagelis</strong>
+      <h4>Title: Fast and Accurate Mining of Evolving and Trajectory Networks</h4>
+      <p>Abstract:
+Large-scale network mining and analysis is key to revealing the underlying
+dynamics of complex networks, not easily observable before. In this talk, I will
+present our recent work in mining specific types of dynamic networks. In the
+first part, I will present EvoNRL, a random-walk based method for effectively
+learning low-dimensional continuous representations of evolving networks. The
+key idea of our approach is to maintain a set of random walks that are
+consistent with the updates that occur in the network topology. That way we are
+able to learn a new mapping from the evolving network to a low-dimension network
+representation on-demand, with similar accuracy and at a fraction of the cost of
+traditional random-walk based network representation learning methods. In the
+second part, I will discuss our research on mining and analysis of large-scale
+trajectory networks - networks where the nodes are moving objects (cars,
+pedestrians, etc.) and the edges represent contacts between objects as defined
+by a proximity threshold.  I will first motivate the problem of evaluating the
+importance of a moving object (node importance) in such networks; then I will
+present SLOT, a fast and exact method that can concurrently evaluate the
+importance of all moving objects (nodes) based on node degree, triangle
+membership and connected component network metrics, over time.
+       </p></li>
+    <li><span class="monospaced">15:55&ndash;16:30</span>:
+      Invited Talk by <strong>Dr.&nbsp;Andrés&nbsp;Abeliuk</strong>
+       </p></li>
+    <li><span class="monospaced">16:30&ndash;17:05</span>:
+      Invited Talk by <strong>Prof.&nbsp;William&nbsp;L.&nbsp;Hamilton</strong>
+      <h4>Title: Compositional Fairness Constraints for Graph Embeddings</h4>
+      <p>Abstract:
+Learning high-quality node embeddings is a key building block for machine
+learning models that operate on graph data, such as social networks and
+recommender systems. However, existing graph embedding techniques are unable to
+cope with fairness constraints, e.g., ensuring that the learned representations
+do not correlate with certain attributes, such as age or gender. In this talk,
+I will introduce an adversarial framework to enforce fairness constraints on
+graph embeddings. Our approach is compositional---meaning that it can flexibly
+accommodate different combinations of fairness constraints during inference. For
+instance, in the context of social recommendations, our framework would allow
+one user to request that their recommendations are invariant to both their age
+and gender, while also allowing another user to request invariance to just their
+age. Experiments on standard knowledge graph and recommender system benchmarks
+highlight the utility of our proposed framework. 
+       </p></li>
+    <li><span class="monospaced">17:05&ndash;17:30</span>:
+      Panel discussion
+      <h4>Topic: The Future of Network Representation Learning</h4>
+      Moderator: <strong>Dr.&nbsp;Sandipan&nbsp;Sikdar</strong><br>
+      Panelists:
+          Prof.&nbsp;Danai&nbsp;Koutra,
+          Prof.&nbsp;Manos&nbsp;Papagelis,
+          Dr.&nbsp;Yuxiao&nbsp;Dong,
+          Prof.&nbsp;William&nbsp;L.&nbsp;Hamilton,
+          and Dr.&nbsp;Andrés&nbsp;Abeliuk
+      </li>
+</ul>
 
-<div class="ui cards">
-  <a href="https://sites.google.com/site/fakhtehghanbarnejad/" class="ui centered card">
-    <div class="image">
-      <img src="images/ghanbarnejad.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Fakhteh Ghanbarnejad</div>
-      <div class="description">Technische Universität Berlin, Germany</div>
-    </div>
-  </a>
-  <a href="http://parantapa.net/" class="ui centered card">
-    <div class="image">
-      <img src="images/bhattacharya.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Parantapa Bhattacharya</div>
-      <div class="description">University of Virginia, USA</div>
-    </div>
-  </a>
-  <a href="https://sites.google.com/view/sandipanscssh/" class="ui centered card">
-    <div class="image">
-      <img src="images/sikdar-cropped.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Sandipan Sikdar</div>
-      <div class="description">RWTH Aachen, Germany</div>
-    </div>
-  </a>
-  <a href="http://people.mpi-inf.mpg.de/~rsaharo/" class="ui centered card">
-    <div class="image">
-      <img src="images/saharoy.jpg">
-    </div>
-    <div class="content">
-      <div class="header">Rishiraj Saha Roy</div>
-      <div class="description">Max Planck Institute for Informatics, Germany</div>
-    </div>
-  </a>
+<div class="people-container-2colmax">
+
+  <h3 id="organizers">Organizers</h3>
+
+  <div class="ui cards">
+    <a href="https://sites.google.com/site/fakhtehghanbarnejad/" class="ui centered card">
+      <div class="image">
+        <img src="images/ghanbarnejad.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Fakhteh Ghanbarnejad</div>
+        <div class="description">Technische Universität Berlin, Germany</div>
+      </div>
+    </a>
+    <a href="http://parantapa.net/" class="ui centered card">
+      <div class="image">
+        <img src="images/bhattacharya.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Parantapa Bhattacharya</div>
+        <div class="description">University of Virginia, USA</div>
+      </div>
+    </a>
+    <a href="https://sites.google.com/view/sandipanscssh/" class="ui centered card">
+      <div class="image">
+        <img src="images/sikdar-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Sandipan Sikdar</div>
+        <div class="description">RWTH Aachen, Germany</div>
+      </div>
+    </a>
+    <a href="http://people.mpi-inf.mpg.de/~rsaharo/" class="ui centered card">
+      <div class="image">
+        <img src="images/saharoy.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Rishiraj Saha Roy</div>
+        <div class="description">Max Planck Institute for Informatics, Germany</div>
+      </div>
+    </a>
+  </div>
 </div>
 
 <h3 id="history">History</h3>
@@ -261,6 +379,7 @@ at Conference on Complex Systems (CCS) with the theme
 The organizing committees of the DOOCN workshop series
 have published three Birkhäuser book volumes,
 from selected talks from the series.
+</p>
 <ul>
   <li>
     <a href="https://www.springer.com/us/book/9780817647506">
@@ -278,7 +397,6 @@ from selected talks from the series.
     Machine Learning and Statistical Physics Approaches</a>
   </li>
 </ul>
-</p>
 
 </div>
 </body>
