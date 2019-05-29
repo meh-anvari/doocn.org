@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>DOOCN-XII: Dynamics On and Of Complex Networks</title>
+  <meta name="description" content="Official website of the \"Dynamics On and Of Complex Networks\" workshop series">
+
+  <link rel="stylesheet" type="text/css" href="semantic.min.css">
+
+  <style>
+  body {
+    line-height: 1.5em;
+    background-image: url("images/background.png");
+  }
+  #root {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .monospaced {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  .push-down {
+    padding-top: 0.7rem;
+  }
+  .people-container-2colmax {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  p.location {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+  }
+  p {
+    text-align: justify;
+  }
+  ul li {
+    margin-bottom: 1em;
+  }
+  </style>
+</head>
+
+<body>
+<div id="root" class="ui container">
+
+<h1>DOOCN-XII: Network Representation Learning</h1>
+<h2>Dynamics On and Of Complex Networks 2019</h2>
+
+<p class="location">
+  Frank Room of the UVM Davis Center<br>
+  University of Vermont, Burlington, Vermont, USA<br>
+  Tuesday, May 28th 2019 1:45pm&ndash;5:30pm</p>
+
+<p>The Dynamics On and Of Complex Networks (DOOCN) workshop series,
+aims on exploring statistical dynamics on and of complex networks.
+<em>Dynamics on networks</em> refers to the different types of
+processes that take place on networks,
+like spreading, diffusion, and synchronization.
+Modeling such processes is strongly affected by the topology
+and temporal variation of the network structure,
+i.e., by the <em>dynamics of networks</em>.
+Recently, machine learning techniques have been used
+to model dynamics of massively large complex networks
+generated from big data,
+and the various functionalities resulting from the networks.
+This motivates us to focus on
+<strong>&ldquo;Network Representation Learning&rdquo;</strong>
+as the significant topic of interest in the 2019 edition.</p>
+
+
+<p>Network Representation Learning or Graph Embedding is a technique
+that aims to compute vector space representations
+of nodes and edges of a network,
+that capture their relations semantically.
+Recently Network Representation Learning has seen a lot of research focus
+from the Network Science community
+for its ability to automatically capture
+different sorts of complex semantic relations
+between components of a graph without explicit programming.</p>
+
+<p>The 12<sup>th</sup> edition of the DOOCN workshop,
+&ldquo;DOOCN-XII: Network Representation Learning&rdquo;
+will be held in conjunction with the upcoming
+<a href="http://www.netsci2019.net/">NetSci 2019</a> conference,
+which will take place during 27&ndash;31 May 2019,
+in Burlington, Vermont, USA.
+</p>
+
+<div id="navbar" class="ui five item stackable menu">
+  <a href="#invited" class="item">Invited Speakers</a>
+  <a href="#program" class="item">Program</a>
+  <a href="#organizers" class="item">Organizers</a>
+  <a href="#history" class="item">History</a>
+  <a href="#books" class="item">DOOCN Book Series</a>
+</div>
+
+<div>
+
+  <h3 id="invited">Invited Speakers</h3>
+
+  <div class="ui cards">
+    <a href="http://web.eecs.umich.edu/~dkoutra/" class="ui centered card">
+      <div class="image">
+        <img src="images/koutra-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Danai Koutra</div>
+        <div class="description">University of Michigan, USA</div>
+      </div>
+    </a>
+    <a href="https://www.eecs.yorku.ca/~papaggel/" class="ui centered card">
+      <div class="image">
+        <img src="images/papagelis-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Manos Papagelis</div>
+        <div class="description">York University, Canada</div>
+      </div>
+    </a>
+    <a href="https://ericdongyx.github.io/" class="ui centered card">
+      <div class="image">
+        <img src="images/dong-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Yuxiao Dong</div>
+        <div class="description">Microsoft Research, Redmond, USA</div>
+      </div>
+    </a>
+    <a href="https://williamleif.github.io/" class="ui centered card">
+      <div class="image">
+        <img src="images/hamilton-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">William L. Hamilton</div>
+        <div class="description">McGill University, Canada</div>
+      </div>
+    </a>
+    <a href="https://www.isi.edu/people/aabeliuk/about" class="ui centered card">
+      <div class="image">
+        <img src="images/abeliuk-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Andres Abeliuk</div>
+        <div class="description">University of Southern California, USA</div>
+      </div>
+    </a>
+  </div>
+
+</div>
+
+<h3 id="program">Program</h3>
+
+<ul>
+    <li><span class="monospaced">13:45&ndash;13:55</span>:
+      Welcome and introductions by <strong>Dr.&nbsp;Parantapa&nbsp;Bhattacharya</strong></li>
+    <li><span class="monospaced">13:55&ndash;14:30</span>:
+      Invited Talk by <strong>Dr.&nbsp;Yuxiao&nbsp;Dong</strong>
+      <h4>Title: Representation learning on networks</h4>
+      <p>Abstract:
+Over the past few years, representation learning has been offering
+a revolutionary paradigm for mining and learning with network data. In this
+talk, I will give a systematic introduction for this ongoing paradigm shift.
+I will start the talk with industry examples to explain how network analysis and
+graph mining on the Web are benefiting from representation learning, as well as
+its associated challenges. Then I will show how current developments on this
+problem can conceptually fall into three different categories, i.e., graph
+spectral, neural network, and matrix factorization based techniques.
+Importantly, I will demonstrate how these methods can be theoretically connected
+and unified with each other. For example, we find that skip-gram based network
+embedding methods are in essence implicitly factorizing matrices with closed
+forms, which are closely connected with the theory of graph Laplacian.  Finally,
+I will show how we can leverage sparse matrix factorization for learning
+representations on large-scale networks
+    <li><span class="monospaced">14:30&ndash;15:05</span>:
+      Invited Talk by <strong>Prof.&nbsp;Danai&nbsp;Koutra</strong>
+      <h4>Title: Pocket-size structural embeddings in large-scale networks</h4>
+      <p>Abstract:
+Networks naturally capture a host of real-world interactions, from social
+interactions and email communication to web browsing to brain activity. Over the
+past few years, representation learning over networks has been shown to be
+successful in a variety of downstream tasks, such as classification, link
+prediction, and visualization. Most existing approaches seek to learn node
+representations that capture node proximity. In this talk, I will discuss our
+recent work on a different class of node representations that aim to preserve
+the structural similarity between the nodes. I will present the lessons learned
+from designing efficient structural embedding methods for large-scale
+heterogeneous data, including ways to overcome the computational challenges and
+massive storage requirements that many existing techniques face. Throughout the
+talk, I will discuss applications to professional role discovery, entity
+resolution, entity linking across data sources, and more.
+       </p></li>
+    <li><span class="monospaced">15:05&ndash;15:20</span>:
+      <strong>Coffee Break</strong></li>
+    <li><span class="monospaced">15:20&ndash;15:55</span>:
+      Invited Talk by <strong>Prof.&nbsp;Manos&nbsp;Papagelis</strong>
+      <h4>Title: Fast and Accurate Mining of Evolving and Trajectory Networks</h4>
+      <p>Abstract:
+Large-scale network mining and analysis is key to revealing the underlying
+dynamics of complex networks, not easily observable before. In this talk, I will
+present our recent work in mining specific types of dynamic networks. In the
+first part, I will present EvoNRL, a random-walk based method for effectively
+learning low-dimensional continuous representations of evolving networks. The
+key idea of our approach is to maintain a set of random walks that are
+consistent with the updates that occur in the network topology. That way we are
+able to learn a new mapping from the evolving network to a low-dimension network
+representation on-demand, with similar accuracy and at a fraction of the cost of
+traditional random-walk based network representation learning methods. In the
+second part, I will discuss our research on mining and analysis of large-scale
+trajectory networks - networks where the nodes are moving objects (cars,
+pedestrians, etc.) and the edges represent contacts between objects as defined
+by a proximity threshold.  I will first motivate the problem of evaluating the
+importance of a moving object (node importance) in such networks; then I will
+present SLOT, a fast and exact method that can concurrently evaluate the
+importance of all moving objects (nodes) based on node degree, triangle
+membership and connected component network metrics, over time.
+       </p></li>
+    <li><span class="monospaced">15:55&ndash;16:30</span>:
+      Invited Talk by <strong>Dr.&nbsp;Andres&nbsp;Abeliuk</strong>
+      <h4>Title: Friendship Paradox Biases Perceptions in Directed Networks</h4>
+      <p>Abstract:
+How popular a topic or an opinion appears to be in a network can be very
+different from its actual popularity. For example, in an online network of
+a social media platform, the number of people who mention a topic in their
+posts---i.e., its global popularity---can be dramatically different from how
+people see it in their social feeds---i.e., its perceived popularity---where the
+feeds aggregate their friends' posts. We trace the origin of this discrepancy to
+the friendship paradox in directed networks, which states that people are less
+popular than their friends (or followers) are, on average. We identify
+conditions on network structure that give rise to this perception bias, and
+validate the findings empirically using data from Twitter. Within messages
+posted by Twitter users in our sample, we identify topics that appear more
+frequently within the users' social feeds, than they do globally, i.e., among
+all posts. In addition, we present a polling algorithm that leverages the
+friendship paradox to obtain a statistically efficient estimate of a topic's
+global prevalence from biased perceptions of individuals. We characterize the
+bias of the polling estimate, provide an upper bound for its variance, and
+validate the algorithm's efficiency through synthetic polling experiments on our
+Twitter data. Our paper elucidates the non-intuitive ways in which the structure
+of directed networks can distort social perceptions and resulting behaviors.
+       </p></li>
+    <li><span class="monospaced">16:30&ndash;17:05</span>:
+      Invited Talk by <strong>Prof.&nbsp;William&nbsp;L.&nbsp;Hamilton</strong>
+      <h4>Title: Compositional Fairness Constraints for Graph Embeddings</h4>
+      <p>Abstract:
+Learning high-quality node embeddings is a key building block for machine
+learning models that operate on graph data, such as social networks and
+recommender systems. However, existing graph embedding techniques are unable to
+cope with fairness constraints, e.g., ensuring that the learned representations
+do not correlate with certain attributes, such as age or gender. In this talk,
+I will introduce an adversarial framework to enforce fairness constraints on
+graph embeddings. Our approach is compositional---meaning that it can flexibly
+accommodate different combinations of fairness constraints during inference. For
+instance, in the context of social recommendations, our framework would allow
+one user to request that their recommendations are invariant to both their age
+and gender, while also allowing another user to request invariance to just their
+age. Experiments on standard knowledge graph and recommender system benchmarks
+highlight the utility of our proposed framework. 
+       </p></li>
+    <li><span class="monospaced">17:05&ndash;17:30</span>:
+      Panel discussion
+      <h4>Topic: The Future of Network Representation Learning</h4>
+      Moderator: <strong>Dr.&nbsp;Sandipan&nbsp;Sikdar</strong><br>
+      Panelists:
+          Prof.&nbsp;Danai&nbsp;Koutra,
+          Prof.&nbsp;Manos&nbsp;Papagelis,
+          Dr.&nbsp;Yuxiao&nbsp;Dong,
+          Prof.&nbsp;William&nbsp;L.&nbsp;Hamilton,
+          and Dr.&nbsp;Andres&nbsp;Abeliuk
+      </li>
+</ul>
+
+<div class="people-container-2colmax">
+
+  <h3 id="organizers">Organizers</h3>
+
+  <div class="ui cards">
+    <a href="https://sites.google.com/site/fakhtehghanbarnejad/" class="ui centered card">
+      <div class="image">
+        <img src="images/ghanbarnejad.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Fakhteh Ghanbarnejad</div>
+        <div class="description">Technische Universität Berlin, Germany</div>
+      </div>
+    </a>
+    <a href="http://parantapa.net/" class="ui centered card">
+      <div class="image">
+        <img src="images/bhattacharya.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Parantapa Bhattacharya</div>
+        <div class="description">University of Virginia, USA</div>
+      </div>
+    </a>
+    <a href="https://sites.google.com/view/sandipanscssh/" class="ui centered card">
+      <div class="image">
+        <img src="images/sikdar-cropped.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Sandipan Sikdar</div>
+        <div class="description">RWTH Aachen, Germany</div>
+      </div>
+    </a>
+    <a href="http://people.mpi-inf.mpg.de/~rsaharo/" class="ui centered card">
+      <div class="image">
+        <img src="images/saharoy.jpg">
+      </div>
+      <div class="content">
+        <div class="header">Rishiraj Saha Roy</div>
+        <div class="description">Max Planck Institute for Informatics, Germany</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<h3 id="history">History</h3>
+
+<p>The first Dynamics On and Of Complex Networks (DOOCN I)
+took place in Dresden, Germany, on 4th October 2007,
+as a satellite workshop of the European Conference on Complex Systems 07.
+The workshop received a large number of quality submissions
+from authors pursuing research in multiple disciplines,
+thus making the forum truly inter-disciplinary.
+There were around 20 speakers who spoke
+about the dynamics on and of different systems
+exhibiting a complex network structure,
+from biological systems, linguistic systems, and social systems
+to various technological systems
+like the Internet, WWW, and peer-to-peer systems.
+The organizing committee has published
+some of the very high quality original submissions
+as an edited volume from Birkhauser, Boston
+describing contemporary research position in complex networks.</p>
+
+<p>After the success of DOOCN I,
+the organizers launched Dynamics On and Of Complex Networks – II (DOOCN II),
+a two days satellite workshop
+of the European Conference of Complex Systems 08.
+DOOCN II was held in Jerusalem, Israel, on the 18th and 19th September 2008.</p>
+
+<p>DOOCN III was held as a satellite of ECCS 2009
+in the University of Warwick, UK on 23rd and 24th of September.
+In continuation, DOOCN IV was held again as a satellite of ECCS 2010
+in the University Institute Lisbon, Portugal on 16th September.</p>
+
+<p><a href="https://www.pks.mpg.de/~peruani/doocn2011/">DOOCN V</a>
+was held as a satellite of ECCS 2011
+in the University of Vienna on 14th – 15th September 2011.</p>
+
+<p><a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2013.html">DOOCN VI</a>
+took place in Barcelona, as a satellite to ECCS 2013,
+and focused on Semiotic Dynamics in time-varying social media.
+As DOOCN I, the other five DOOCN workshops
+counted with a large number participants
+and attracted prominent scientist in the field.</p>
+
+<p><a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2014.html">DOOCN VII</a>,
+held in Lucca as a satellite to ECCS 2014,
+focused on Big Data aspects.
+<a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2015.html">DOOCN VIII</a>
+was held in Zaragoza with focus also on BigData aspects.</p>
+
+<p>The 9th edition of <a href="http://doocnconf.wixsite.com/homepage">DOOCN</a>
+was held in Amsterdam
+at Conference on Complex Systems (CCS) with the theme
+&ldquo;Mining and learning for complex networks&rdquo;.</p>
+
+<p>The 2017 edition of <a href="http://doocnconf.wixsite.com/doocn2017">DOOCN</a>
+was held in Indianapolis USA
+in conjunction with NetSci 2017.</p>
+
+<p>The 2018 edition of <a href="http://doocn.org/2018">DOOCN XI</a>
+was held in Thessaloniki, Greece
+at Conference on Complex Systems (CCS) with the theme
+&ldquo;Machine learning for complex networks&rdquo;.</p>
+
+<h3 id="books">DOOCN Book Series</h3>
+
+<p>
+The organizing committees of the DOOCN workshop series
+have published three Birkhäuser book volumes,
+from selected talks from the series.
+</p>
+<ul>
+  <li>
+    <a href="https://www.springer.com/us/book/9780817647506">
+    Dynamics On and Of Complex Networks:
+    Applications to Biology, Computer Science, and the Social Sciences</a>
+  </li>
+  <li>
+    <a href="https://www.springer.com/de/book/9781461467281">
+    Dynamics On and Of Complex Networks, Volume 2:
+    Applications to Time-Varying Dynamical Systems</a>
+  </li>
+  <li>
+    <a href="https://www.springer.com/de/book/9783030146825">
+    Dynamics On and Of Complex Networks III:
+    Machine Learning and Statistical Physics Approaches</a>
+  </li>
+</ul>
+
+</div>
+</body>
+
+</html>
