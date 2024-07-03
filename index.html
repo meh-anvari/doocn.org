@@ -309,30 +309,33 @@ intervention before the system becomes locked into an undesired state. Recently,
 the utility of EWSs for predicting transitions into unhealthy states (i.e. psychiatric disorders), which can be perceived as
 alternative stable states opposed to the “healthy” ones. Notably, critical slowing down-based early warning signals have
 exhibited potential as a predictive tool for identifying transitions into depression or other mental diseases. In this work, we
-define xi = [x_{i1} , . . . , x_{in} ]T f_j (x_{ij} , x_{ij1} , . . . , x_{ijm} , u_i , w_i ),  j = 1, . . . , n;
- y_i = h(x_{i1}, . . . , x_{in}, ν_{ij} ), (1)
-where j_1 , . . . , j_m are the neighbors of node j, i.e., the symptoms affecting the dynamics of symptom j; 
-f_j describes how an individual’s mental state is influenced by their
+define \(x_i = [x_{i1} , . . . , x_{in} ]^T\) as the mental state of the individual i, with \(x_{ij}∈R\) being the variable associated to the j-th
+symptom, emotion or transdiagnostic factor pertaining to the i-th individual. The mental health dynamics for individual i
+are given by the following dynamical equation:
+$$\dot{x}_{ij}=f_j(x_{ij} , x_{ij1} , . . . , x_{ijm} , u_i , w_i ),  j = 1, . . . , n;
+ y_i = h(x_{i1}, . . . , x_{in}, ν_{ij} ), (1)$$
+where \(j_1 , . . . , j_m\) are the neighbors of node j, i.e., the symptoms affecting the dynamics of symptom j; 
+\(f_j\) describes how an individual’s mental state is influenced by their
 own symptom history and the contextual factors in their environment, represented by the state of neighboring symptoms,
-and by the “outside world” through the variable u_i ∈ R^m . Note that f_j also depends on the random variable w_i ∈ R^q ,
+and by the “outside world” through the variable \(u_i∈R^m\). Note that \(f_j\) also depends on the random variable \(w_i∈R^q\),
 which represents the uncertainty inherent in the model. This uncertainty arises from various sources, such as the complexity
 of the underlying dynamics, and the inability to fully capture all the relevant factors affecting the symptoms within the
-mathematical formalization. The variable y_i ∈ R^p corresponds to what we are actually able to measure of the overall mental
-state of an individual, whereby we typically have p < n; function h is a nonlinear function of the symptoms, and of a random
-variable ν_{ij} ∈ R, which represents the uncertainty that may arise from recall biases, subjective interpretation, distortions or
+mathematical formalization. The variable \(y_i∈R^p\) corresponds to what we are actually able to measure of the overall mental
+state of an individual, whereby we typically have p < n ; function h is a nonlinear function of the symptoms, and of a random
+variable \(ν_{ij}∈R\), which represents the uncertainty that may arise from recall biases, subjective interpretation, distortions or
 other influences that may affect the accuracy of the patient’s narration.
 In practical applications, we are not aware of the functional form of fj and h, and only have at our disposal a multivariate
-time-series y_i (1), . . . , y_i(T ) of the noisy measured mental state of an individual. The objective is then that of an early
+time-series \(y_i(1), . . . , y_i(T)\) of the noisy measured mental state of an individual. The objective is then that of an early
 identification of the onset of critical transitions in an individual mental state, so to make an early detection, for instance, of
 a crisis that is about to take place and change medications in a timely manner.
 In this work, we compare two viable approaches for early warning, the kernel change point on running statistics, kcpRS
 [3], and the time-varying change point autoregressive model of order 1, TVCP-AR(1) [4] on a case study of a 57 years-old
-man with a history of major depression [2].
-[1] M. Scheffer, Critical Transitions in Nature and Society. Princeton: Princeton University Press, 2009.
+man with a history of major depression [2].</p>
+[1] M. Scheffer, Critical Transitions in Nature and Society. Princeton: Princeton University Press, 2009.</p>
 [2] M. Wichers, P. C. Groot, and E. G. Psychosystems, ESM Group, “Critical slowing down as a personalized early warning signal for depression,” Psy-
-chotherapy and Psychosomatics, vol. 85, no. 2, pp. 114–116, 2016.
+chotherapy and Psychosomatics, vol. 85, no. 2, pp. 114–116, 2016.</p>
 [3] J. Cabrieto, K. Meers, E. Schat et al., “An R package for performing kernel change point detection on the running statistics of multivariate time series,”
-Behavior Research Methods, vol. 54, no. 3, pp. 1092–1113, 2022.
+Behavior Research Methods, vol. 54, no. 3, pp. 1092–1113, 2022.</p>
 [4] C. J. Albers and L. F. Bringmann, “Inspecting gradual and abrupt changes in emotion dynamics with the time-varying change point autoregressive
 model,” European Journal of Psychological Assessment, vol. 36, no. 3, pp. 492–499, 2020</p>
 
