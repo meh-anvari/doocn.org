@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>DOOCN-XIV: Dynamics On and Of Complex Networks</title>
+  <meta name="description" content="Official website of the Dynamics On and Of Complex Networks workshop series">
+
+  <link rel="stylesheet" type="text/css" href="semantic.min.css">
+
+  <style>
+  body {
+    line-height: 1.5em;
+    background-image: url("images/background.png");
+  }
+  #root {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .monospaced {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  .push-down {
+    padding-top: 0.7rem;
+  }
+  .people-container-2colmax {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  p.location {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+  }
+  p {
+    text-align: justify;
+  }
+  ul li {
+    margin-bottom: 1em;
+  }
+  </style>
+</head>
+
+<body>
+<div id="root" class="ui container">
+
+<h1>DOOCN-XIV: Cascading Failures in Complex Networks</h1>
+<h2>Dynamics On and Of Complex Networks 2023</h2>
+
+<p class="location">
+    The satellite will be held using Zoom Video Webinar system. <a href="https://pik-potsdam.zoom.us/j/92698870403?pwd=ZHRaWjVQU20xVmRGaGdEd1d5VXhrUT09">link</a>
+
+</p>
+
+ <p class="location">
+     Workshop videos are now available <a href="https://owncloud.fraunhofer.de/index.php/s/5pYTNaFuIBNJJea">here</a>.
+
+</p>
+
+<p>The Dynamics On and Of Complex Networks (DOOCN) workshop series,
+aims at exploring statistical dynamics on and off complex networks.
+<em>Dynamics on networks</em> refers to the different types of
+processes that take place on networks,
+like spreading, diffusion, and synchronization.
+Modeling such processes is strongly affected by the topology
+and temporal variation of the network structure,
+i.e., by the <em>dynamics of networks</em>.
+Understanding and analyzing cascading failures in complex networks have been the focus of
+  research for years. However, the complex interactions among the large number of components in these
+  systems and their contributions to cascading failures are not yet completely understood.
+ This motivates us to focus on
+<strong>"Cascading Failures in Complex Networks"</strong>
+as the topic of interest in the 2023 edition.</p>
+
+<p>Understanding and analyzing cascading failures in complex systems is an important task.
+As an
+example, cascading failures in power grids can be defined as successive interdependent failures of
+components in the system, which are usually initiated by few outages due to internal or exogenous
+disturbances and are propagated in a relatively short period of time leading to large blackouts. While
+large blackouts are infrequent, their occurrence still has substantial risks associated with the
+significant economic losses and social impacts that they cause. Various studies and models have
+been developed to understand and control these complex phenomena.
+Cascading failures can also occur in computer networks (such as the Internet) in which network traffic
+is severely impaired or halted to or between larger sections of the network, caused by failing or
+disconnected hardware or software.
+In finance, the risk of cascading failures of financial institutions is referred to as systemic risk: the
+failure of one financial institution may cause other financial institutions to fail, cascading throughout
+the system.
+Biochemical cascades exist in biology, where a small reaction can have system-wide implications.
+One negative example is ischemic cascade, in which a small ischemic attack releases toxins which kill
+off far more cells than the initial damage, resulting in more toxins being released.
+The vast application of the concept of cascading failures motivates us to focus on this specific
+following theme this year.
+
+
+<p>The 14<sup>th</sup> edition of the DOOCN workshop,
+&ldquo;DOOCN-XIV: Cascading Failures in Complex Networks; will be held on <strong>August 28-29, 2023</strong> in conjunction with the upcoming
+<a href="https://statphys28.org/">STATPHYS28 2023</a> conference
+which will take place during 7&ndash;11 August 2023, in Tokyo, Japan although the workshop will be held online.
+</p>
+
+
+<div id="navbar" class="ui five item stackable menu">
+  <a href="#invited" class="item">Invited Speakers</a>
+  <a href="#organizers" class="item">Organizers</a>
+  <a href="#program" class="item">Program</a>
+  <a href="#history" class="item">History</a>
+  <a href="#books" class="item">DOOCN Book Series</a>
+</div>
+
+<h3 id="invited">Invited Speakers</h3>
+
+<div class="ui cards">
+  <a href="https://www.qmul.ac.uk/maths/profiles/beckc.html" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Christian-Beck.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Christian Beck</div>
+      <div class="description">Queen Mary, University of London, UK </div>
+    </div>
+  </a>
+  <a href="https://www.fz-juelich.de/profile/boettcher_p" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Bottcher.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Philipp Böttcher</div>
+      <div class="description">Forschungszentrum Jülich, Germany</div>
+    </div>
+  </a>
+  <a href="https://ifisc.uib-csic.es/en/people/pere-colet/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Colet.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Pere Colet</div>
+      <div class="description">IFISC Palma de Mallorca, Spain</div>
+    </div>
+  </a>
+  <a href="https://www.pik-potsdam.de/en/home" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/malte.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Tobias Ohlinger</div>
+      <div class="description">University of Potsdam, Germany</div>
+    </div>
+  </a>
+  <a href="https://www.pik-potsdam.de/en/home" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/malte.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Alex Schmauss</div>
+      <div class="description">Potsdam Institute for Climate Impact Research (Germany)</div>
+    </div>
+  </a>
+  <a href="https://www.dieei.unict.it/docenti/mattia.frasca" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Mattia.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Mattia Frasca</div>
+      <div class="description">University of Catania, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.dieei.unict.it/faculty/lucia.valentina.gambuzza" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Mattia.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Lucia Gambuzza</div>
+      <div class="description">University of Catania, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.pik-potsdam.de/members/hellmann" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Dirk.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Frank Hellmann</div>
+      <div class="description">Potsdam Institute for Climate Impact Research, Germany</div>
+    </div>
+  </a>
+  <a href="https://www.fz-juelich.de/profile/witthaut_d" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Dirk Witthaut</div>
+      <div class="description">Forschungszentrum Jülich, Germany</div>
+    </div>
+  </a>
+  <a href="https://mae.ucdavis.edu/directory/raissa-dsouza" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Guga Mikaberidze</div>
+      <div class="description">University of California, Davis, US</div>
+    </div>
+  </a>
+  <a href="https://www.pik-potsdam.de/members/noram" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Nora Molkenthin</div>
+      <div class="description">Potsdam Institute for Climate Impact Research, Germany</div>
+    </div>
+  </a>
+</div>
+
+<h3 id="program">Program</h3>
+
+
+<ul>
+
+    <li><strong>All times are in Central European Time (CET)</strong></li>
+
+    <li><strong>August 28</strong></li>
+
+    <li><span class="monospaced">14:30&ndash;14:35</span>: Opening</li>
+
+    <li><span class="monospaced">14:35&ndash;15:10</span>:
+      Invited Talk by <strong>Frank Hellmann</strong>
+      <h4>Title: Complex Coupling Formulations for Power Grid Dynamics</h4>
+      <p>Abstract:
+      Collective phenomena like synchronization underpin the function of the power grid. I
+present a new and surprising formulation of the physics of the grid in terms of the coupling
+between nodes. This resembles an adaptive network formulation and enables an elegant
+analysis of the full systems dynamics. Using this formulation I present a new proof of concept
+quasi-local control law for power grids that guarantees synchronization. I will also present
+initial results on empirically derived complex oscillator models for the future grid in this
+approach.</p>
+
+    </li>
+
+  <li><span class="monospaced">15:10&ndash;15:45</span>:
+      Invited Talk by <strong>Christian Beck</strong>
+      <h4>Title: Propagation of frequency perturbations in power grids</h4>
+      <p>Abstract: A large amount of experimentally measured data is now available
+to analyse the statistics of power grid frequency deviations from 50Hz and to
+understand their dynamical behaviour. I briefly present superstatistical models
+that can be used in this context. I will then discuss the propagation speed
+of  local  perturbations in the grid, including both large-scale propagation of a
+given perturbation as well frequency differences on much smaller scales.
+</p>
+
+    </li>
+
+    <li><span class="monospaced">15:45&ndash;16:00</span>: Coffee Break</li>
+
+    <li><span class="monospaced">16:00&ndash;16:35</span>:
+      Invited Talk by <strong>Nora Molkenthin</strong>
+      <h4>Title: Sampling vulnerable power grid networks using MCMC</h4>
+      <p>Abstract:
+The transition to the exclusive use of renewable energy sources poses a
+difficult problem for the electricity grid, as the states of the grid
+become more variable and unpredictable, possibly leading to states
+vulnerable to cascading failures. Here we want to address this problem
+by using Marcov Chain Monte Carlo (MCMC) sampling to generate and
+analyze ensembles of vulnerable states. This allows us to better
+understand and even predict such states from the input patterns alone.
+We find that more clustered generators and consumers lead to larger
+failure cascades and non-local first outages are an early warning sign for unfolding large cascades.</p>
+    </li>
+
+
+<li><span class="monospaced">16:35&ndash;17:10</span>:
+      Invited Talk by <strong>Dirk Witthaut</strong>
+      <h4>Title: Cascading failures in power grids: Physical insights and robust grid structures</h4>
+      <p>Abstract: Cascading failures are the biggest threat for the stability of electric power systems: Large
+        blackouts can typically be traced back to the failure of a single transmission element. In my talk I will
+        analyze the spreading of cascades from the perspective of theoretical physics and network science. The
+        main question is: Given the failure of a single transmission line, how do power flows change and where
+        are secondary failures most likely? Based on this analysis, I discuss specific structural features that
+        make a network more robust to transmission line failures. We show that the spreading of a cascade between
+        different parts of a network can be large suppressed by an appropriate design.</p>
+
+    </li>
+
+    <li><span class="monospaced">17:10&ndash;17:35</span>:
+      Contributed Talk by <strong>Guga Mikaberidze</strong>
+      <h4>Title: Sandpile cascades on oscillator networks: the BTW model meets Kuramoto</h4>
+      <p>Abstract:
+Cascading failures abound in complex systems, and the BTW sandpile model
+provides a theoretical underpinning for their analysis. Yet, it does not account for the possibility
+of nodes having oscillatory dynamics, such as in power grids and brain networks. We will
+consider a network of Kuramoto oscillators upon which the BTW model is unfolding, enabling
+us to study how the feedback between the oscillatory and cascading dynamics can lead to new
+emergent behaviors. We assume that the more out-of-sync a node is with its neighbors, the
+more vulnerable it is and lower its load-carrying capacity accordingly. And when a node
+topples and sheds load, its oscillatory phase is reset at random. This leads to novel cyclic
+behavior at an emergent, long timescale. The system spends the bulk of its time in a
+synchronized state where the load builds up with minimal cascades. Yet, eventually, the
+system reaches a tipping point where a large cascade triggers a "cascade of larger cascades,”
+which can be classified as a Dragon King event. The system then undergoes a short transient
+back to the synchronous build-up phase. The coupling between capacity and synchronization
+gives rise to endogenous cascade seeds in addition to the standard exogenous ones, and we
+will show their respective roles.</p>
+    </li>
+
+    <li><strong>August 29</strong></li>
+
+<li><span class="monospaced">14:30&ndash;15:05</span>:
+      Invited Talk by <strong>Mattia Frasca/Lucia Gambuzza</strong>
+      <h4>Title:  Reconstruction of cascading failures in dynamical models of power grids</h4>
+      <p>Abstract: In this talk we propose a method to reconstruct the active links of a power network described by
+        a second-order Kuramoto model and subject to dynamically induced cascading failures. Starting from the
+        assumption (realistic for power grids) that the structure of the network is known, our method reconstructs
+        the active links from the evolution of the relevant dynamical quantities of the nodes of the system, that is,
+        the node phases and angular velocities</p>
+    </li>
+
+
+  <li><span class="monospaced">15:05&ndash;15:40</span>:
+      Invited Talk by <strong>Pere Colet</strong>
+      <h4>Title: Blackout risk reduction by segmenting large power grids with controllable HVDC
+lines</h4>
+      <p>Abstract: Large electrical transmission networks are susceptible to undergo very large blackouts
+        due to cascading failures, with a very large associated economical cost. We analyze the effect of
+        segmenting large power grids using controllable lines, such as high-voltage direct-current lines,
+        to reduce the risk of blackouts. During a blackout, the power flowing through these lines is controlled
+        in order to minimize the load shed. As a result, the segmented grids have a substantially lower risk
+        of blackouts than the original network. The control method is shown to be specially efficient in reducing
+        blackouts affecting more than one zone. As a case study we consider the continental European grid with
+        two possible segmentations: one through the Pyrenees separating the Iberian peninsula from the rest of
+        Europe and the other dividing the network in approximately two halves, Eastern and Western Europe.</p>
+
+    </li>
+
+    <li><span class="monospaced">15:40&ndash;15:55</span>: Coffee Break</li>
+     <li><span class="monospaced">15:55&ndash;16:20</span>:
+      Contributed Talk by <strong>Philipp Böttcher</strong>
+      <h4>Title: Cascading Failures and Critical Infrastructures in Future Renewable Power Systems</h4>
+      <p>Abstract: Mitigating the effects of climate change by reducing the emission of greenhouse gases is the
+key challenge of the coming decades. To this end, the world’s power systems are undergoing a
+rapid transformation, shifting away from carbon-intensive power generation by thermal power
+plants to renewable power sources, which is mainly provided by wind and solar power
+generation.
+As a result, there is a growing importance of long-distance power transmission, while the
+intrinsic system inertia provided by thermal power plants decreases. This poses several
+challenges to the system such as an accelerated dynamics and a higher loaded power grid,
+which might lead to a higher control effort to keep the system operating within safe margins.
+These developments make power grids more vulnerable to cascading failures, which may result
+in a splitting of the grid and eventually in a large-scale blackout. A system split is one of the
+worst contingencies a power system can experience as it results in the power system being
+separated into several desynchronized components. This might have far reaching
+consequences for the power system like, for instance, the system split in November of 2006 that
+left millions of people without electricity. While such large system splits are rare, several smaller
+splits were observed in recent years, which underlines the need to understand how these
+system splits can occur and what their impact is.
+In this work, we use the state-of-the-art open energy system model PyPSA to generate future
+energy systems for different carbon reduction targets. Subsequently, we trigger line failures to
+investigate the likelihood of cascading failures that lead to systems splits in the European power
+grid. We determine which splits are most likely and dangerous to highlight their impact on the
+European power system. Additionally, we identify critical infrastructure elements, i.e.,
+transmission lines that either trigger a system split or are involved in a cascade that leads to a
+system split. Understanding how the triggers, impact, and likelihood of system splits change for
+future renewable power systems, is a first step towards finding mitigation strategies that
+guarantee safe and reliable power systems.</p>
+    </li>
+
+
+
+    <li><span class="monospaced">16:20&ndash;16:45</span>:
+      Contributed Talk by <strong>Tobias Ohlinger</strong>
+      <h4>Title: Assessing the Ability of Graph Neural Networks to Predict Power Outages of
+Cascading Failures In a Power Grid</h4>
+      <p>Abstract:
+      Cascading power failures are a serious problem in the operation of power grids.
+These failures can lead to significant economic losses, social disruption, and even loss of life.
+Predicting the occurrence of cascading power failures and their extent is essential for
+power grid operators to take appropriate preventive and corrective actions. Recently,
+Graph Neural Networks (GNNs) have shown great potential in solving complex problems
+related to graph-structured data. This Presentation aims to assess the ability of GNNs to
+predict power outages resulting from cascading failures in a power grid.</p>
+    </li>
+
+
+    <li><span class="monospaced">16:45&ndash;17:10</span>:
+      Contributed Talk by <strong>Alex Schmauss</strong>
+      <h4>Title: Influence of Complex Networks on Ride-Pooling Systems</h4>
+      <p>Abstract:
+Ride-pooling is an efficient technique to lower negative aspects of individual traffic by cars
+like CO2-emissions or noise. Ride-pooling services bundle similar rides together, implying that the
+number of required vehicles and the overall number of rides decreases in the service area. Since the
+necessary infrastructure is already in place, ride-pooling can be implemented quickly. It can work as
+door-to-door service or use stops. However, since studies show that the first case is inefficient, we
+work with discrete stop networks.
+Here we study, which stop networks perform the best at minimizing the average passenger travel time
+ts. To draw the most efficient networks from the infinite set of possible networks that can be created
+on every road network, a Markov Chain Monte Carlo algorithm (MCMC) is used. Starting from an initial network, in each step of the MCMC, a proposal network is generated from the
+last accepted network by pooling or splitting stops. The efficiency of a network is determined by
+evaluating ts from a ride-pooling simulation. The proposed network is then accepted with a
+probability, ensuring more efficient networks are always accepted, while less efficient ones only have
+a small acceptance probability. In the result networks, stops at intersections are preferred. Stops that lead to detours are ignored
+and the area served by the system is reduced. Furthermore, it can be deduced from the result
+networks that the average travel time can be approximated from the networks themselves.</p>
+    </li>
+
+  <li><span class="monospaced">17:10&ndash;17:15</span>: Conclusion</li>
+
+</ul>
+
+<h3 id="organizers">Organizers</h3>
+
+<div class="ui cards">
+  <a href="https://www.isc.cnr.it/staff-members/simona-olmi/" class="ui centered card">
+    <div class="image">
+      <img src="images/Simona.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Simona Olmi</div>
+      <div class="description">Institute for Complex Systems, Florence, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.pik-potsdam.de/members/anvari" class="ui centered card">
+    <div class="image">
+      <img src="images/mehrnaz.jpeg">
+    </div>
+    <div class="content">
+      <div class="header">Mehrnaz Anvari,</div>
+      <div class="description">Fraunhofer Institute for Algorithms and Scientific Computing SCAI, Germany</div>
+    </div>
+  </a>
+  <a href="https://sites.google.com/site/fakhtehghanbarnejad/" class="ui centered card">
+    <div class="image">
+      <img src="images/ghanbarnejad.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Fakhteh Ghanbarnejad</div>
+      <div class="description">Ghanbarnejad, Potsdam Institute for Climate Impact Research (PIK),Germany</div>
+    </div>
+  </a>
+  <a href="https://sites.google.com/view/sandipanscssh/" class="ui centered card">
+    <div class="image">
+      <img src="images/sikdar-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Sandipan Sikdar</div>
+      <div class="description">Leibniz University Hannover, Germany</div>
+    </div>
+  </a>
+  <a href="http://people.mpi-inf.mpg.de/~pramanik/" class="ui centered card">
+    <div class="image">
+      <img src="images/pramanik-cropped.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Soumajit Pramanik</div>
+      <div class="description">Indian Institute of Technology Bhilai, India</div>
+    </div>
+  </a>
+</div>
+
+<h3 id="history">History</h3>
+
+<p>The first Dynamics On and Of Complex Networks (DOOCN I)
+took place in Dresden, Germany, on 4th October 2007,
+as a satellite workshop of the European Conference on Complex Systems 07.
+The workshop received a large number of quality submissions
+from authors pursuing research in multiple disciplines,
+thus making the forum truly inter-disciplinary.
+There were around 20 speakers who spoke
+about the dynamics on and of different systems
+exhibiting a complex network structure,
+from biological systems, linguistic systems, and social systems
+to various technological systems
+like the Internet, WWW, and peer-to-peer systems.
+The organizing committee has published
+some of the very high quality original submissions
+as an edited volume from Birkhauser, Boston
+describing contemporary research position in complex networks.</p>
+
+<p>After the success of DOOCN I,
+the organizers launched Dynamics On and Of Complex Networks – II (DOOCN II),
+a two days satellite workshop
+of the European Conference of Complex Systems 08.
+DOOCN II was held in Jerusalem, Israel, on the 18th and 19th September 2008.</p>
+
+<p>DOOCN III was held as a satellite of ECCS 2009
+in the University of Warwick, UK on 23rd and 24th of September.
+In continuation, DOOCN IV was held again as a satellite of ECCS 2010
+in the University Institute Lisbon, Portugal on 16th September.</p>
+
+<p><a href="https://www.pks.mpg.de/~peruani/doocn2011/">DOOCN V</a>
+was held as a satellite of ECCS 2011
+in the University of Vienna on 14th – 15th September 2011.</p>
+
+<p><a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2013.html">DOOCN VI</a>
+took place in Barcelona, as a satellite to ECCS 2013,
+and focused on Semiotic Dynamics in time-varying social media.
+As DOOCN I, the other five DOOCN workshops
+counted with a large number participants
+and attracted prominent scientist in the field.</p>
+
+<p><a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2014.html">DOOCN VII</a>,
+held in Lucca as a satellite to ECCS 2014,
+focused on Big Data aspects.
+<a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2015.html">DOOCN VIII</a>
+was held in Zaragoza with focus also on BigData aspects.</p>
+
+<p>The 9th edition of <a href="http://doocnconf.wixsite.com/homepage">DOOCN</a>
+was held in Amsterdam
+at Conference on Complex Systems (CCS) with the theme
+&ldquo;Mining and learning for complex networks&rdquo;.</p>
+
+<p>The 2017 edition of <a href="http://doocnconf.wixsite.com/doocn2017">DOOCN</a>
+was held in Indianapolis USA
+in conjunction with NetSci 2017.</p>
+
+<p>The 2018 edition of <a href="http://doocn.org/2018">DOOCN XI</a>
+was held in Thessaloniki, Greece
+at Conference on Complex Systems (CCS) with the theme
+&ldquo;Machine learning for complex networks&rdquo;.</p>
+
+<p>The 2019 edition of <a href="http://doocn.org/2019">DOOCN XII</a>
+was held in Burlington, Vermont, USA
+in conjunction with NetSci 2019 with the theme
+&ldquo;Network Representation Learning&rdquo;.</p>
+
+ <p>The 2020 edition of <a href="http://doocn.org/2020">DOOCN XIII</a>
+was held online
+in conjunction with NetSci 2020 with the theme
+&ldquo;Network Learning&rdquo;.</p>
+
+<h3 id="books">DOOCN Book Series</h3>
+
+<p>
+The organizing committees of the DOOCN workshop series
+have published three Birkhäuser book volumes,
+from selected talks from the series.
+</p>
+<ul>
+  <li>
+    <a href="https://www.springer.com/us/book/9780817647506">
+    Dynamics On and Of Complex Networks:
+    Applications to Biology, Computer Science, and the Social Sciences</a>
+  </li>
+  <li>
+    <a href="https://www.springer.com/de/book/9781461467281">
+    Dynamics On and Of Complex Networks, Volume 2:
+    Applications to Time-Varying Dynamical Systems</a>
+  </li>
+  <li>
+    <a href="https://www.springer.com/de/book/9783030146825">
+    Dynamics On and Of Complex Networks III:
+    Machine Learning and Statistical Physics Approaches</a>
+  </li>
+</ul>
+
+</div>
+</body>
+
+</html>
