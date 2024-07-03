@@ -60,6 +60,8 @@
   </style>
 </head>
 
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+
 <body>
 <div id="root" class="ui container">
 
@@ -307,10 +309,7 @@ intervention before the system becomes locked into an undesired state. Recently,
 the utility of EWSs for predicting transitions into unhealthy states (i.e. psychiatric disorders), which can be perceived as
 alternative stable states opposed to the “healthy” ones. Notably, critical slowing down-based early warning signals have
 exhibited potential as a predictive tool for identifying transitions into depression or other mental diseases. In this work, we
-define xi = [x_{i1} , . . . , x_{in} ]T as the mental state of the individual i, with x_{ij} ∈ R being the variable associated to the j-th
-symptom, emotion or transdiagnostic factor pertaining to the i-th individual. The mental health dynamics for individual i
-are given by the following dynamical equation:
-ẋ_{ij} = f_j (x_{ij} , x_{ij1} , . . . , x_{ijm} , u_i , w_i ),  j = 1, . . . , n;
+define xi = [x_{i1} , . . . , x_{in} ]T f_j (x_{ij} , x_{ij1} , . . . , x_{ijm} , u_i , w_i ),  j = 1, . . . , n;
  y_i = h(x_{i1}, . . . , x_{in}, ν_{ij} ), (1)
 where j_1 , . . . , j_m are the neighbors of node j, i.e., the symptoms affecting the dynamics of symptom j; 
 f_j describes how an individual’s mental state is influenced by their
@@ -511,7 +510,7 @@ vol. 58, no. 4, pp. 1259–1267, 2010.</p>
     <li><span class="monospaced">15:40&ndash;15:55</span>: Coffee Break</li>
      <li><span class="monospaced">15:55&ndash;16:20</span>:
       Contributed Talk by <strong>Diego Febbe</strong>
-      <h4>Title:Chaos and Synchronization in the UJT relaxation oscillator </h4>
+      <h4>Title: Chaos and Synchronization in the UJT relaxation oscillator </h4>
       <p>Abstract: Nonlinear electronic oscillators play an important role in a variety of electrical applications,
 ranging from individual components to the modelling of networks and the development of power
 grids. Additionally, the study of nonlinear oscillators can find many applications in other fields such
@@ -559,28 +558,30 @@ Fluctuation Noise Lett 2024; 23(1):2440008–20.</p>
       <h4>Title: Modeling and control of opinion dynamics in the presence of higher-order interactions</h4>
       <p>Abstract:
         We consider a group of N individuals that need to form an opinion on a two-option choice influenced by an opinion leader,
-the individual N + 1. The i-th individual has opinion x_i , where x_i = 0 means that individual i has a neutral opinion; xi > 0 and
-x_i < 0 correspond, instead, to an individual leaning toward option 1 or 2, respectively, and higher values of |x_i | mean that the
-opinion of the i-th agent is more extreme. The individuals are coupled through the hypergraph H = (V , E ), whereby social
+the individual N + 1. The i-th individual has opinion \(x_i\) , where \(x_i = 0\) means that individual i has a neutral opinion; \(x_i>0\) and
+\(x_i < 0\) correspond, instead, to an individual leaning toward option 1 or 2, respectively, and higher values of \(|x_i|\) mean that the
+opinion of the i-th agent is more extreme. The individuals are coupled through the hypergraph H=(V,E), whereby social
 interactions are not only pairwise, but they can involve more than two agents at the same time. Namely, each hyperedge ε ∈ E
-is a pair of ordered, disjoint subsets of V . The first subset, T (ε), contains the tails, and the second, H (ε), the heads of ε, with
+is a pair of ordered, disjoint subsets of V. The first subset, T(ε), contains the tails, and the second, H(ε), the heads of ε, with
 the tail nodes trying to influence the opinion of the head nodes in the group interaction taking place on hyperedge ε. The opinion
 dynamics of the i-th coupled agent is described by
-ẋ_i = f (x_i , μ_i ) + ∑ σ_ε (x_ε^τ α_ε − x_ε^h β_ε ) + ∑ k_ε (x_{N+1} − x_ε^h β_ε ), i = 1, . . . , N,
-whereas the opinion leader has dynamics ẋ_{N+1} = f (x_{N+1}, μ_i ), as it is not influenced by the other individuals; note that function
-f (z, μ_i ) = −3z + μ_i tanhz is so that, when μ_i > 3, an isolated agent has an unstable equilibrium at the neutral opinion z = 0, and
-two stable equilibria z = ±x̄_i leaning toward each of the two options [1]. The vectors αε and βε stack the weights of the tails and
-heads of hyperedge ε, respectively, and are such that α_ε^T 1_{|T (ε)|} = β_ε^T 1_{|H (ε)|} = 1, and the set E_{uc}^{∗,i} (E_p^{∗,i}) is the set of hyperedges
-not containing the opinion leader (containing the opinion leader) that have i as a head; x_ε^τ ∈ R^{|T (ε)|} and x_ε^h ∈ R^{|H (ε)|} are row
+$$ẋ_i = f (x_i , μ_i ) + ∑ σ_ε (x_ε^τ α_ε − x_ε^h β_ε ) + ∑ k_ε (x_{N+1} − x_ε^h β_ε ), i = 1, . . . , N,$$
+whereas the opinion leader has dynamics \(ẋ_{N+1}=f(x_{N+1},μ_i)\), as it is not influenced by the other individuals; note that function
+\(f(z,μ_i)=−3z+μ_itanhz\) is so that, when \(μ_i>3\), an isolated agent has an unstable equilibrium at the neutral opinion \(z=0\), and
+two stable equilibria \(z=\pm\bar{x}_i\) leaning toward each of the two options [1]. The vectors αε and βε stack the weights of the tails and
+heads of hyperedge ε, respectively, and are such that \(α_ε^T 1_{|T (ε)|} = β_ε^T 1_{|H (ε)|} = 1\), and the set \(E_{uc}^{∗,i} (E_p^{∗,i})\) is the set of hyperedges
+not containing the opinion leader (containing the opinion leader) that have i as a head; \(x_ε^τ∈R^{|T (ε)|}\) and (x_ε^h ∈ R^{|H (ε)|}\) are row
 vectors whose elements are the state of the agents that are tails and heads of hyperedge ε, respectively. Finally, for a hyperedge
-ε ∈ E_{uc} , σ_ε is its coupling strength, and for ε ∈ E_p , k_ε is the control gain of the associated leader’s feedback control action.
+\(ε∈E_{uc}\) , \(σ_ε\) is its coupling strength, and for \(ε ∈ E_p\) , \(k_ε\) is the control gain of the associated leader’s feedback control action.
 We consider the case in which the hypergraph describing social interactions, extracted from [2], is divided into 15 communities
 of 10 nodes each. The scope of the opinion leader is to bring the opinion of the followers as close as possible to its own.
 However, in the presence of limited resources the leader can only decide to influence one of the 15 communities through directed
 hyperedges. By linearizing equation (1) and using Lyapunov stability theory, we are able to identify the selection that yields the
-smallest difference in norm between the opinion of the leader and that of the followers.
+smallest difference in norm between the opinion of the leader and that of the followers.</p>
+
 [1] F. Lo Iudice, F. Garofalo, and P. De Lellis, “Bounded partial pinning control of network dynamical systems,” IEEE Transactions on Control
-of Network Systems, vol. 10, no. 1, pp. 238–248, 2022.
+of Network Systems, vol. 10, no. 1, pp. 238–248, 2022.</p>
+
 [2] J. Stehlé et al., “High-resolution measurements of face-to-face contact patterns in a primary school,” PloS one, vol. 6, p. e23176, 2011. </p>
     </li>
 
