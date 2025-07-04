@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>DOOCN-XVI: Dynamics On and Of Complex Networks</title>
+  <meta name="description" content="Official website of the Dynamics On and Of Complex Networks workshop series">
+
+  <link rel="stylesheet" type="text/css" href="semantic.min.css">
+
+  <style>
+  body {
+    line-height: 1.5em;
+    background-image: url("images/background.png");
+  }
+  #root {
+    margin-top: 1em;
+    margin-bottom: 1em;
+  }
+  .monospaced {
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+  }
+  .push-down {
+    padding-top: 0.7rem;
+  }
+  .people-container-2colmax {
+    max-width: 580px;
+    margin: 0 auto;
+  }
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  h3 {
+    font-size: 1.5rem;
+  }
+  h4 {
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  p.location {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+  }
+  p {
+    text-align: justify;
+  }
+  ul li {
+    margin-bottom: 1em;
+  }
+  </style>
+</head>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=default'></script>
+
+<body>
+<div id="root" class="ui container">
+
+<h1>DOOCN-XVI: Workshop at CNS*2025</h1>
+<h2>Population activity : the influence of cell-class identity, synaptic dynamics, plasticity and adaptation</h2>
+
+<p class="location">
+    The workshop will be held in presence. <a href="https://www.cnsorg.org/cns-2025-meeting-program">link</a>
+
+</p>
+
+<p>The Dynamics On and Of Complex Networks (DOOCN) workshop series,
+aims at exploring statistical dynamics on and off complex networks.
+<em>Dynamics on networks</em> refers to the different types of
+processes that take place on networks, like spreading, diffusion, and synchronization.
+Modeling such processes is strongly affected by the topology
+and temporal variation of the network structure,
+i.e., by the <em>dynamics of networks</em>.</p>
+
+In recent years tremendous developments have been achieved in the comprehension of neural activity 
+at the population level. This has been possible on one side thanks to the new investigation methods 
+recently developed (e.g. the neuropixels probes and large-scale imaging) that allows for the contemporary 
+registration of the activity of (tens/hundreds of) thousands of neurons in alive and behaving mice as well as established dynamic-clamp protocols.
+On the other side by the elaboration of extremely refined mean field models able to describe the population activity of spiking 
+neural networks encompassing realistic biological features, from different forms of synaptic dynamics to plastic and adaptive aspects present at the neural level.
+The aim of this workshop is to gather neuroscientists, mathematicians, engineers, and physicists all working on the 
+characterization of the population activity from different point of views, ranging from data analysis of experimental 
+results to simulations of large ensembles of neurons, from next generation neural mass models to dynamical mean field theories. 
+This workshop will favour the exchanges and the discussion on extremely recent developments in this extremely fluorishing field.
+This motivates us to focus on 
+<strong>"Population activity : the influence of cell-class identity, synaptic dynamics, plasticity and adaptation."</strong>
+as the topic of interest in the 2025 edition.</p>
+
+
+
+
+<p>The 14<sup>th</sup> edition of the DOOCN workshop,
+&ldquo;DOOCN-XVI: Population activity : the influence of cell-class identity, synaptic dynamics, plasticity and adaptation; will be held on <strong>July 8-9, 2025</strong> in conjunction with the upcoming
+<a href="https://www.cnsorg.org/"> CNS*25 Florence -34^{th} Annual Computational Neuroscience Meeting
+</a> which will take place during 5&ndash; 9 July 2025, in Florence, Italy.
+</p>
+
+<h3 id="organizers">Organizers</h3>
+
+<div class="ui cards">
+  <a href="https://www.isc.cnr.it/staff-members/simona-olmi/" class="ui centered card">
+    </div>
+    <div class="content">
+      <div class="header">Simona Olmi</div>
+      <div class="description">Institute for Complex Systems, Florence, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.giugliano.info/" class="ui centered card">
+    </div>
+    <div class="content">
+      <div class="header">Michele Giugliano,</div>
+      <div class="description">Università degli Studi di Modena e Reggio Emilia - Dipartimento di Scienze Biomediche, Metaboliche e Neuroscienze sede ex-Sc. Biomediche, Italy</div>
+    </div>
+  </a>
+  <a href="https://perso.u-cergy.fr/~atorcini/" class="ui centered card">
+    </div>
+    <div class="content">
+      <div class="header">Alessandro Torcini</div>
+      <div class="description">Laboratoire de Physique Théorique et Modélisation - CY Cergy Paris Université- Cergy-Pontoise, France</div>
+    </div>
+  </a>
+</div>
+
+
+<div id="navbar" class="ui five item stackable menu">
+  <a href="#invited" class="item">Invited Speakers</a>
+  <a href="#organizers" class="item">Organizers</a>
+  <a href="#program" class="item">Program</a>
+  <a href="#history" class="item">History</a>
+  <a href="#books" class="item">DOOCN Book Series</a>
+</div>
+
+<h3 id="invited">Invited Speakers</h3>
+
+<div class="ui cards">
+  <a href="https://uni-tuebingen.de/en/fakultaeten/mathematisch-naturwissenschaftliche-fakultaet/fachbereiche/informatik/lehrstuehle/self-organization-and-optimality-in-neuronal-networks/people/anna-levina/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Christian-Beck.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Anna Levina</div>
+      <div class="description">University of Tübingen, Germany</div>
+    </div>
+  </a>
+  <a href="https://gbarzon.github.io/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Bottcher.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Giacomo Barzon</div>
+      <div class="description">Padova Neuroscience Center, University of Padova, Italy</div>
+    </div>
+  </a>
+   <a href="https://www.santannapisa.it/en/eleonora-russo" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Bottcher.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Eleonora Russo</div>
+      <div class="description">Scuola Superiore Sant'Anna, The BioRobotics Institute, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.santannapisa.it/en/eleonora-russo" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Colet.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Eleonora Russo</div>
+      <div class="description">The BioRobotics Institute, Sant’Anna School of Advanced Studies, Italy</div>
+    </div>
+  </a>
+  <a href="https://tobikausk.github.io/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/malte.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Tobias Kühn</div>
+      <div class="description">University of Bern, Switzerland</div>
+    </div>
+  </a>
+  <a href="https://scholar.google.com/citations?user=bXH9EEMAAAAJ&hl=en" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/malte.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Gianluigi Mongillo</div>
+      <div class="description">Sorbonne Université, INSERM, CNRS, Institut de la Vision, F-75012 Paris, France</div>
+    </div>
+  </a>
+</div>
+<div class="ui cards">
+  <a href="https://warwick.ac.uk/fac/cross_fac/zeeman_institute/staffv2/richardson/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Mattia.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Magnus J. E. Richardson</div>
+      <div class="description">Warwick Mathematics Institute, UK</div>
+    </div>
+  </a>
+  <a href="https://scholar.google.it/citations?user=R_8KIU4AAAAJ&hl=it" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Mattia.jpg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Gianni Valerio Vinci</div>
+      <div class="description">Istituto Superiore di Sanita’, Rome, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.isc.cnr.it/staff-members/simona-olmi/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/Dirk.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Simona Olmi</div>
+      <div class="description">Institute for Complex Systems - National Research Council - Italy</div>
+    </div>
+  </a>
+  <a href="https://www.cyu.fr/en/research-development/laboratories/lptm-laboratoire-de-physique-theorique-et-modelisation" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Ferdinand Tixidre </div>
+      <div class="description">CY Cergy Paris University, France</div>
+    </div>
+  </a>
+  <a href="http://www.in.cnr.it/index.php/en/people-en/221-allegra-letizia" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Letizia Allegra Mascaro </div>
+      <div class="description">Neuroscience Institute, National Research Council, Italy</div>
+    </div>
+  </a>
+  <a href="https://perso.u-cergy.fr/~atorcini/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Alessandro Torcini </div>
+      <div class="description">CY Cergy Paris University, France</div>
+    </div>
+  </a>
+  <a href="https://ctn.zuckermaninstitute.columbia.edu/people/rainer-engelken" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Rainer Engelken </div>
+      <div class="description">Columbia University, NY, United States</div>
+    </div>
+  </a>
+  <a href="https://page.math.tu-berlin.de/~schwalge/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Tilo Schwalger  </div>
+      <div class="description">Technische Universität Berlin, Institut für Mathematik, Germany</div>
+    </div>
+  </a>
+  <a href="https://www.stonybrook.edu/commcms/neurobiology/people/faculty_Giancarlo_La_Camera.php#Publications" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Giancarlo La Camera </div>
+      <div class="description">Stony Brook University, NY, United States</div>
+    </div>
+  </a>
+  <a href="https://www.zamora-lopez.xyz/" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header">Gorka Zamora-López </div>
+      <div class="description">Universitat Pompeu Fabra, Barcelona, Spain</div>
+    </div>
+  </a>
+  <a href="https://www.fz-juelich.de/profile/albada_s.van" class="ui centered card">
+    <!--
+    <div class="image">
+      <img src="images/hellmann.jpeg">
+    </div>
+    -->
+    <div class="content">
+      <div class="header"> Sacha van Albada </div>
+      <div class="description">Research Center Juelich and University of Cologne, Germany</div>
+    </div>
+  </a>
+  
+</div>
+
+<h3 id="program">Program</h3>
+
+
+<ul>
+
+    <li><strong>All times are in Central European Time (CET)</strong></li>
+
+    <li><strong>July 8, Room 4</strong></li>
+
+    <li><span class="monospaced">09:15&ndash;09:30</span>: Opening</li>
+
+    <li><span class="monospaced">09:30&ndash;10:00</span>:
+      Invited Talk by <strong>Anna Levina </strong>
+      <h4>Title: Balancing Excitation and Inhibition in connectivity and synaptic strength</h4>
+      <p>Abstract:
+     Maintaining a balance between excitation and inhibition (E/I) is fundamental for stable neuronal dynamics and proper brain function. 
+     The efforts to maintain this balance are reflected in the conserved ratios of excitatory and inhibitory neurons across different brain regions and development. 
+    I will discuss how neuronal networks with artificially altered E/I cell-count ratios can adapt by modifying their connectivity to restore the equilibrium.</p>
+
+    At the level of synaptic strength, theoretical studies suggest that a combination of plasticity rules can drive the emergence of E/I co-tuning (detailed balance) 
+    in neurons receiving independent, low-noise inputs. I will explore how recurrent network structures influence this process. Furthermore, at the level of single neurons 
+    with complex morphologies, I will demonstrate how the spatial distribution of excitatory and inhibitory inputs across the dendritic tree affects both the stability  
+   of learned orientation preference and the sharpness of tuning.</p>
+
+    </li>
+
+  <li><span class="monospaced">10:00&ndash;10:30</span>:
+      Invited Talk by <strong>Giacomo Barzon</strong>
+      <h4>Title: Optimal control of neural activity in circuits with excitatory-inhibitory balance</h4>
+      <p>Abstract:
+    Excitatory-inhibitory balance governs how information is processed and transmitted through cortical circuits. 
+    In this talk, we show how the input-output properties of a balanced circuit can be naturally explained by control theory. 
+    We explain how excitatory-inhibitory interactions sculpt network controllability through the lens of balanced amplification. 
+   We capture the spatiotemporal features of cell-type specific control in spatially extended networks by introducing two new observables: 
+  controllability horizon and Gramian dimensionality. Extending these insights to networks trained on cognitive tasks, we highlight control 
+  theory as a unifying principle for understanding both information processing and causal circuit manipulations.
+
+</p>
+    
+    </li>
+ <li><span class="monospaced">10:30&ndash;11:00</span>: Coffee Break</li>
+
+ <li><span class="monospaced">11:00&ndash;11:30</span>:
+      Invited Talk by <strong>Eleonora Russo</strong>
+      <h4>Title: Integration of rate and temporal codes by hippocampal cell-assemblies supports theta phase coding of task-relevant information</h4>
+      <p>Abstract: 
+        Spatial information is encoded by location-dependent hippocampal place cell firing rates and sub-second, 
+        rhythmic entrainment of spike times. These rate and temporal codes have primarily been characterized in low-dimensional environments 
+        under limited cognitive demands; but how is coding configured in complex environments when individual place cells signal several locations,
+        individual locations contribute to multiple routes and functional demands vary? Quantifying CA1 population dynamics of male rats during a decision-making task, 
+        we show that the phase of individual place cells\u2019 spikes relative to the local theta rhythm shifts to differentiate activity in different place fields. 
+        Theta phase coding also disambiguates repeated visits to the same location during different routes, particularly preceding spatial decisions. 
+        Using unsupervised detection of cell assemblies alongside theoretical simulations, we show that integrating rate and phase coding mechanisms dynamically 
+        recruits units to different assemblies, generating spiking sequences that disambiguate episodes of experience and multiplexing spatial information 
+        with cognitive context. </p>  
+    </li>
+
+  
+   
+
+    <li><span class="monospaced">11:30&ndash;12:00</span>:
+      Invited Talk by <strong> Tobias Kühn</strong>
+      <h4>Title: Discrete and continuous neuron models united in field theory: statistics, dynamics and computation </h4>
+      <p>Abstract: Depending on the question at hand, different neuron models are chosen to model the activity in neural networks - 
+        amongst the most basic descriptions for example, there are rate neurons and binary neurons. Because the mathematical frameworks for 
+        these descriptions are traditionally quite different, a direct comparison has been difficult so far. Here, we develop a generalized 
+        path-integral framework to study neuron models on the same footing, the only requirement being that the neuron is described by some 
+        input-output mechanism [Kühn, Keup, Dahmen & Helias, PRX 2021]. In this framework, we investigate the statistics of networks of binary 
+        and rate neurons, finding that they can be matched given the right amount of noise. The dynamics, however, is qualitatively different: 
+        whereas the dynamics of the rate network is regular for small recurrent connectivity and chaotic for strong enough recurrency, it is always 
+        chaotic for the binary network, at least in the thermodynamic limit. Given that chaos is often considered to be detrimental for computation, 
+        it might appear that, in this sense, binary neurons are of no much use. However, we show here that for classification tasks, it is precisely 
+        the chaotic dynamics leading to a (transient) improvement of performance because distances of data points inside classes are less strongly 
+        enhanced by the expansive dynamics than the (bigger) distances between different classes. Only on long time scales, the chaotic activity 
+        mixes the trajectories of all initial conditions and renders classification impossible. The same mechanism can be observed for networks 
+        with other types of model neurons in their respective chaotic regimes. We conclude by an outlook on how these theoretical considerations 
+        relate to recent experimental results: in Neuropixels data from mice, the decorrelation of neural trajectories in a binary network, 
+        together with the population firing rate, explains the decay of separability over time between visual and tactile stimuli.</p>
+    </li>
+
+
+<li><span class="monospaced">12:00&ndash;12:30</span>:
+      Invited Talk by <strong>Gianluigi Mongillo</strong>
+      <h4>Title: Synaptic encoding of time in working memory</h4>
+      <p>Abstract: Everyday behavior requires processing temporally-extended sequences of stimuli, an ability that critically relies on Working Memory (WM). 
+        Yet, how WM supports the encoding and retrieval of a sequence of stimuli is presently unknown. Existing models rely on associative learning 
+        to encode or retrieve temporal information and are, thus, unable to explain how people can reproduce short, but otherwise arbitrary (i.e., novel), 
+        sequences of stimuli immediately. Here, we propose that both the stimuli and their relative times of occurrence are rapidly encoded by transient, 
+        non-associative synaptic plasticity over multiple time scales. To substantiate this proposal, we extend our previously- proposed synaptic theory 
+        of WM to include synaptic augmentation, besides short-term depression and facilitation, consistently with experimental observations. 
+        Like facilitation, augmentation builds up with repetitive pre-synaptic activation but persists for much longer. We find that the long time scales 
+        associated with augmentation naturally lead to the emergence of a temporal gradient in the synaptic efficacies. This gradient, in turn, can be easily 
+        read-out and used to immediately replay, at normal speed or in a time-compressed way, novel sequences. The theory proposed is consistent with multiple 
+        behavioral and neurophysiological observations.
+</p>
+
+    </li>
+ <li><strong>July 9, Room Hall 1A </strong></li>
+
+    <li><span class="monospaced">09:30&ndash;10:00</span>:
+      Invited Talk by <strong>Magnus J.E. Richardson</strong>
+      <h4>Title: Spatiotemporal integration of stochastic synaptic drive within neurons and across networks</h4>
+      <p>Abstract:
+      Dendritic morphology is a key indicator of cell class; however, compared to point-neuron models, there are relatively few analytical results on the role of 
+      space in the integration of synaptic input. Here, a feedforward cascade of partial differential equations is presented that describes the voltage-statistic 
+      dynamics of a minimal dendritic model. Though minimalistic, the model exhibits interesting properties such as a fast response to modulated afferent drive 
+      and morphological resonances. Moving to the level of interconnected networks, a space-time rate-based model is derived from an underlying stochastic network 
+      comprised of spiking neurons. A biophysically reasonable choice of spatial coupling is chosen that includes distance dependencies for both amplitude and signal delay. 
+      The resulting integro-differential representation reduces to a partial-differential equation for the network rate featuring both wavelike and diffusive components. 
+      This approach provides a tractable framework and efficient numerical scheme for analysing the network response to spatiotemporal stimulation patterns.</p>
+    </li>
+
+    <li><strong>July 23</strong></li>
+
+<li><span class="monospaced">14:30&ndash;14:55</span>:
+      Invited Talk by <strong>Gianni Valerio Vinci</strong>
+      <h4>Title:  Synchronization of interconnected microgrids</h4>
+      <p>Abstract: 
+      Mean-field models [1] of neural population dynamics are central to theoretical neuroscience. However, cortical columns consist of a finite 
+      number of neurons $$(N= 10^2-10^4)$$, requiring realistic models to account for finite-size fluctuations [2,3]. This endogenous noise can induce 
+      transitions and coherence, phenomena well-studied in isolated or coupled populations but less understood in spatially extended systems. 
+      We investigate a two-dimensional cortical field, where each lattice node is a population composed of N excitatory spiking neurons. 
+      Each neuron has a membrane potential V integrating with leakage the input current due to both the pre-synaptic barrage of spikes it receives, 
+      and the inhibitory potassium flow determining the adaptation phenomenon of spike frequency [4,5]. Populations are interconnected with a probability 
+      that decays exponentially with distance. For optimal population sizes (N), finite-size fluctuations coupled with spatial interactions generate 
+      coherent oscillations absent in the "thermodynamic" limit (N -> \infty). We characterize this novel noise-induced phase transition using standard 
+      tools from non-equilibrium statistical physics and explore the system's dynamics in the bifurcation diagram of local excitability versus adaptation strength. 
+      Our findings depend primarily on global and local connectivity parameters, rather than single-neuron details; therefore, we expect them to be general and ubiquitous. 
+      Lastly, based on these results we address the transition from sleep, dominated by slow global waves, to the asynchronous state characteristic of wakefulness, 
+      using our cortical field model offering insights into this fundamental problem in neuroscience, challenging the current understanding [6,7].
+  
+</p>
+  
+[1] Brunel, N., and Hakim, V., Fast global oscillations in networks of integrate-and-fire neurons with low firing rates., Neural Comput. 11.7 (1999) 1621-1671.</p>
+  
+[2]  Vinci, G. V., Benzi, R., and Mattia, M., Self-consistent stochastic dynamics for finite-size networks of spiking neurons., Phys. Rev. Lett. 130.9 (2023) 097402.</p>
+  
+[3] Mattia, M., and Del Giudice, P., Population dynamics of interacting spiking neurons., Phys. Rev. E 66.5 (2002) 051917.</p>
+  
+[4] Gigante, G., Mattia, M., and Del Giudice, P., Diverse population-bursting modes of adapting spiking neurons., Phys. Rev. Lett. 98.14 (2007) 148101.</p>
+  
+[5] Mattia, M., and Sanchez-Vives, M. V., Exploring the spectrum of dynamical regimes and timescales in spontaneous cortical activity., Cogn. Neurodyn. 6.3 (2012) 239-250.</p>
+
+[6] Sanchez-Vives, M. V., Massimini, M., and Mattia, M., Shaping the default activity pattern of the cortical network., Neuron 94.5 (2017) 993-1001.</p>
+
+[7] di Santo, S., Villegas, P., Burioni, R., and Muñoz, M. A., Landau-Ginzburg theory of cortex dynamics: Scale-free avalanches emerge at the edge of synchronization., 
+Proc. Natl. Acad. Sci. USA 115.7 (2018) E1356-E1365.</p>
+
+    </li>
+  <li><span class="monospaced">10:30&ndash;11:00</span>: Coffee Break</li>
+
+  <li><span class="monospaced">11:00&ndash;11:30</span>:
+      Invited Talk by <strong>Simona Olmi</strong>
+      <h4>Title: Spike-frequency adaptation (SFA) is a fundamental neuronal mechanism taking into account the fatigue due to
+spike emissions and the consequent reduction of the firing activity. We have studied the effect of this adaptation
+mechanism on the macroscopic dynamics of excitatory and inhibitory networks of quadratic integrate-and-fire
+(QIF) neurons coupled via exponentially decaying post-synaptic potentials [1]. In particular, we have studied the
+population activities by employing an exact mean-field reduction, which gives rise to next-generation neural mass
+models. This low-dimensional reduction allows for the derivation of bifurcation diagrams and the identification
+of the possible macroscopic regimes emerging both in a single and in two identically coupled neural masses. In
+single populations SFA favors the emergence of population bursts in excitatory networks, while it hinders tonic
+population spiking for inhibitory ones. The symmetric coupling of two neural masses, in absence of adaptation,
+leads to the emergence of macroscopic solutions with broken symmetry, namely, chimera-like solutions in the
+inhibitory case and antiphase population spikes in the excitatory one. The addition of SFA leads to new 
+collective dynamical regimes exhibiting cross-frequency coupling (CFC) among the fast synaptic timescale and the
+slow adaptation one, ranging from antiphase slow-fast nested oscillations to symmetric and asymmetric bursting
+phenomena. The analysis of these CFC rhythms in the \theta - \gamma range has revealed that a reduction of SFA leads to
+an increase of the \theta frequency joined to a decrease of the \gamma one. This is analogous to what has been
+reported experimentally for the hippocampus and the olfactory cortex of rodents under cholinergic modulation,
+which is known to reduce SFA. In a PING configuration, where SFA affects the excitatory population only, it is
+possible to observe the emergence of relaxation oscillations due to the interplay between the nonlinear dynamics
+of the firing rate and the self-inhibition modulated by SFA. A characterization of Up and Down states, together
+with that of the spike adding process, is provided in the PING configuration for different parameters.</p>
+    
+[1] A. Ferrara, D. Angulo-Garcia, A. Torcini, and S. Olmi, Population spiking and bursting in next-generation neural
+masses with spike-frequency adaptation, Physical Review E, 107(2), 024311 (2023).</p>
+  
+
+    </li>
+
+    
+     <li><span class="monospaced">11:30&ndash;12:00</span>:
+      Invited Talk by <strong>Ferdinand Tixidre </strong>
+      <h4>Title: Is the cortical dynamics ergodic? A numerical study in partially-symmetric networks of spiking neurons </h4>
+      <p>Abstract: Cortical activity in-vivo displays relaxational time scales much longer than the underlying neuronal
+and synaptic time scales. The mechanisms responsible for such slow dynamics are not understood.
+Here, we show that slow dynamics naturally, and robustly, emerges in dynamically-balanced
+networks of spiking neurons. This only requires partial symmetry in the synaptic connectivity, a
+feature of local cortical networks observed in experiments. The symmetry generates an effective,
+excitatory self-coupling of the neurons that leads to long-lived fluctuations in the network activity,
+without destroying the dynamical balance. When the excitatory self-coupling is suitably strong, the
+same mechanism leads to multiple equilibrium states of the network dynamics. Our results reveal a
+novel dynamical regime of the collective activity in spiking networks, a regime where the memory
+of the initial state persists for very long times and ergodicity is broken.</p>
+        
+    </li>
+
+
+
+    <li><span class="monospaced">16:15&ndash;16:40</span>:
+      Invited Talk by <strong>Letizia Allegra Mascaro</strong>
+      <h4>Title: Modeling and control of opinion dynamics in the presence of higher-order interactions</h4>
+      <p>Abstract:
+        We consider a group of N individuals that need to form an opinion on a two-option choice influenced by an opinion leader,
+the individual N + 1. The i-th individual has opinion \(x_i\) , where \(x_i = 0\) means that individual i has a neutral opinion; \(x_i>0\) and
+\(x_i < 0\) correspond, instead, to an individual leaning toward option 1 or 2, respectively, and higher values of \(|x_i|\) mean that the
+opinion of the i-th agent is more extreme. The individuals are coupled through the hypergraph H=(V,E), whereby social
+interactions are not only pairwise, but they can involve more than two agents at the same time. Namely, each hyperedge ε ∈ E
+is a pair of ordered, disjoint subsets of V. The first subset, T(ε), contains the tails, and the second, H(ε), the heads of ε, with
+the tail nodes trying to influence the opinion of the head nodes in the group interaction taking place on hyperedge ε. The opinion
+dynamics of the i-th coupled agent is described by
+$$ẋ_i = f (x_i , μ_i ) + ∑ σ_ε (x_ε^τ α_ε − x_ε^h β_ε ) + ∑ k_ε (x_{N+1} − x_ε^h β_ε ), i = 1, . . . , N,$$
+whereas the opinion leader has dynamics \(ẋ_{N+1}=f(x_{N+1},μ_i)\), as it is not influenced by the other individuals; note that function
+\(f(z,μ_i)=−3z+μ_itanhz\) is so that, when \(μ_i>3\), an isolated agent has an unstable equilibrium at the neutral opinion \(z=0\), and
+two stable equilibria \(z=\pm\bar{x}_i\) leaning toward each of the two options [1]. The vectors αε and βε stack the weights of the tails and
+heads of hyperedge ε, respectively, and are such that \(α_ε^T 1_{|T (ε)|} = β_ε^T 1_{|H (ε)|} = 1\), and the set \(E_{uc}^{∗,i} (E_p^{∗,i})\) is the set of hyperedges
+not containing the opinion leader (containing the opinion leader) that have i as a head; \(x_ε^τ∈R^{|T (ε)|}\) and (x_ε^h ∈ R^{|H (ε)|}\) are row
+vectors whose elements are the state of the agents that are tails and heads of hyperedge ε, respectively. Finally, for a hyperedge
+\(ε∈E_{uc}\) , \(σ_ε\) is its coupling strength, and for \(ε ∈ E_p\) , \(k_ε\) is the control gain of the associated leader’s feedback control action.
+We consider the case in which the hypergraph describing social interactions, extracted from [2], is divided into 15 communities
+of 10 nodes each. The scope of the opinion leader is to bring the opinion of the followers as close as possible to its own.
+However, in the presence of limited resources the leader can only decide to influence one of the 15 communities through directed
+hyperedges. By linearizing equation (1) and using Lyapunov stability theory, we are able to identify the selection that yields the
+smallest difference in norm between the opinion of the leader and that of the followers.</p>
+
+[1] F. Lo Iudice, F. Garofalo, and P. De Lellis, “Bounded partial pinning control of network dynamical systems,” IEEE Transactions on Control
+of Network Systems, vol. 10, no. 1, pp. 238–248, 2022.</p>
+
+[2] J. Stehlé et al., “High-resolution measurements of face-to-face contact patterns in a primary school,” PloS one, vol. 6, p. e23176, 2011. </p>
+    </li>
+  <li><span class="monospaced">15:20&ndash;15:50</span>: Coffee Break</li>
+  <li><span class="monospaced">16:40&ndash;16:45</span>: Conclusion</li>
+
+</ul>
+
+<h3 id="organizers">Organizers</h3>
+
+<div class="ui cards">
+  <a href="https://www.isc.cnr.it/staff-members/simona-olmi/" class="ui centered card">
+    <div class="image">
+      <img src="images/Simona.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Simona Olmi</div>
+      <div class="description">Institute for Complex Systems, Florence, Italy</div>
+    </div>
+  </a>
+  <a href="https://www.pik-potsdam.de/members/anvari" class="ui centered card">
+    <div class="image">
+      <img src="images/mehrnaz.jpeg">
+    </div>
+    <div class="content">
+      <div class="header">Mehrnaz Anvari,</div>
+      <div class="description">Fraunhofer Institute for Algorithms and Scientific Computing SCAI, Germany</div>
+    </div>
+  </a>
+  <a href="https://sites.google.com/site/fakhtehghanbarnejad/" class="ui centered card">
+    <div class="image">
+      <img src="images/ghanbarnejad.jpg">
+    </div>
+    <div class="content">
+      <div class="header">Fakhteh Ghanbarnejad</div>
+      <div class="description">Ghanbarnejad, Potsdam Institute for Climate Impact Research (PIK),Germany</div>
+    </div>
+  </a>
+</div>
+
+<h3 id="history">History</h3>
+
+<p>The first Dynamics On and Of Complex Networks (DOOCN I)
+took place in Dresden, Germany, on 4th October 2007,
+as a satellite workshop of the European Conference on Complex Systems 07.
+The workshop received a large number of quality submissions
+from authors pursuing research in multiple disciplines,
+thus making the forum truly inter-disciplinary.
+There were around 20 speakers who spoke
+about the dynamics on and of different systems
+exhibiting a complex network structure,
+from biological systems, linguistic systems, and social systems
+to various technological systems
+like the Internet, WWW, and peer-to-peer systems.
+The organizing committee has published
+some of the very high quality original submissions
+as an edited volume from Birkhauser, Boston
+describing contemporary research position in complex networks.</p>
+
+<p>After the success of DOOCN I,
+the organizers launched Dynamics On and Of Complex Networks – II (DOOCN II),
+a two days satellite workshop
+of the European Conference of Complex Systems 08.
+DOOCN II was held in Jerusalem, Israel, on the 18th and 19th September 2008.</p>
+
+<p>DOOCN III was held as a satellite of ECCS 2009
+in the University of Warwick, UK on 23rd and 24th of September.
+In continuation, DOOCN IV was held again as a satellite of ECCS 2010
+in the University Institute Lisbon, Portugal on 16th September.</p>
+
+<p><a href="https://www.pks.mpg.de/~peruani/doocn2011/">DOOCN V</a>
+was held as a satellite of ECCS 2011
+in the University of Vienna on 14th – 15th September 2011.</p>
+
+<p><a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2013.html">DOOCN VI</a>
+took place in Barcelona, as a satellite to ECCS 2013,
+and focused on Semiotic Dynamics in time-varying social media.
+As DOOCN I, the other five DOOCN workshops
+counted with a large number participants
+and attracted prominent scientist in the field.</p>
+
+<p><a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2014.html">DOOCN VII</a>,
+held in Lucca as a satellite to ECCS 2014,
+focused on Big Data aspects.
+<a href="http://perso.uclouvain.be/jean-charles.delvenne/DOOCN2015.html">DOOCN VIII</a>
+was held in Zaragoza with focus also on BigData aspects.</p>
+
+<p>The 9th edition of <a href="http://doocnconf.wixsite.com/homepage">DOOCN</a>
+was held in Amsterdam
+at Conference on Complex Systems (CCS) with the theme
+&ldquo;Mining and learning for complex networks&rdquo;.</p>
+
+<p>The 2017 edition of <a href="http://doocnconf.wixsite.com/doocn2017">DOOCN</a>
+was held in Indianapolis USA
+in conjunction with NetSci 2017.</p>
+
+<p>The 2018 edition of <a href="http://doocn.org/2018">DOOCN XI</a>
+was held in Thessaloniki, Greece
+at Conference on Complex Systems (CCS) with the theme
+&ldquo;Machine learning for complex networks&rdquo;.</p>
+
+<p>The 2019 edition of <a href="http://doocn.org/2019">DOOCN XII</a>
+was held in Burlington, Vermont, USA
+in conjunction with NetSci 2019 with the theme
+&ldquo;Network Representation Learning&rdquo;.</p>
+
+ <p>The 2020 edition of <a href="http://doocn.org/2020">DOOCN XIII</a>
+was held online
+in conjunction with NetSci 2020 with the theme
+&ldquo;Network Learning&rdquo;.</p>
+
+ <p>The 2023 edition of <a href="http://doocn.org/2020">DOOCN XIV</a>
+was held online
+in conjunction with Statphys28 with the theme
+&ldquo;Cascading Failures in Complex Networks&rdquo;.</p>  
+
+<h3 id="books">DOOCN Book Series</h3>
+
+<p>
+The organizing committees of the DOOCN workshop series
+have published three Birkhäuser book volumes,
+from selected talks from the series.
+</p>
+<ul>
+  <li>
+    <a href="https://www.springer.com/us/book/9780817647506">
+    Dynamics On and Of Complex Networks:
+    Applications to Biology, Computer Science, and the Social Sciences</a>
+  </li>
+  <li>
+    <a href="https://www.springer.com/de/book/9781461467281">
+    Dynamics On and Of Complex Networks, Volume 2:
+    Applications to Time-Varying Dynamical Systems</a>
+  </li>
+  <li>
+    <a href="https://www.springer.com/de/book/9783030146825">
+    Dynamics On and Of Complex Networks III:
+    Machine Learning and Statistical Physics Approaches</a>
+  </li>
+</ul>
+
+</div>
+</body>
+
+</html>
